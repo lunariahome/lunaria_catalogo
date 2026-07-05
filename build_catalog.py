@@ -546,6 +546,70 @@ html_template = f'''<!DOCTYPE html>
             background-color: #705543;
             transform: translateY(-2px);
         }}
+        .cart-icon {{
+            position: absolute;
+            right: 20px;
+            top: 25px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--accent-color);
+        }}
+        #cart-count {{
+            position: absolute;
+            top: -8px;
+            right: -10px;
+            background: #d32f2f;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }}
+        .cart-item {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }}
+        .cart-item-info {{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }}
+        .cart-item img {{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 8px;
+        }}
+        .cart-item-title {{
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-color);
+        }}
+        .cart-item-price {{
+            font-size: 0.9rem;
+            color: var(--accent-color);
+        }}
+        .btn-remove {{
+            background: none;
+            border: none;
+            color: #d32f2f;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }}
+        .input-name {{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 1rem;
+            font-family: 'Outfit', sans-serif;
+            box-sizing: border-box;
+        }}
+
         @media (max-width: 768px) {{
             .catalog-grid {{
                 grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -570,7 +634,6 @@ html_template = f'''<!DOCTYPE html>
     <div class="top-bar">
         Síguenos en Instagram: <a href="https://instagram.com/_lunariahome_" target="_blank">@_lunariahome_</a>
     </div>
-    
     <header>
         <button class="menu-toggle" id="menu-btn" aria-label="Menú">
             <span></span>
@@ -580,7 +643,11 @@ html_template = f'''<!DOCTYPE html>
         <img src="{logo_path}" alt="LUNARIA bazar y deco" class="logo">
         <h1 class="header-title">LUNARIA</h1>
         <p class="header-subtitle">bazar y deco</p>
+        <div class="cart-icon" onclick="openCart()">
+            🛒 <span id="cart-count">0</span>
+        </div>
     </header>
+
 
     <div class="menu-overlay" id="overlay"></div>
     <div class="side-menu" id="side-menu">
@@ -595,30 +662,68 @@ html_template = f'''<!DOCTYPE html>
 
 for p in unique_products:
     if p['name'] and p['price']:
-        wa_text = f"Hola, me interesa este producto:\n\n*Nombre:* {p['name']}\n*Precio:* {p['price']}\n*Imagen:* {p['img']}"
-        wa_url = f"https://wa.me/5493476355526?text={urllib.parse.quote(wa_text)}"
         stock_html = f'<div class="stock-badge">{p["stock_msg"]}</div>' if p.get('stock_msg') else ''
+        p_name_esc = p['name'].replace("'", "\'")
+        p_img = p['img']
+        p_price = p['price']
+        
         html_template += f'''
             <div class="product-card" data-title="{p['name'].lower().replace('"', '')}">
                 <div class="image-container">
                     {stock_html}
-                    <img src="{p['img']}" alt="{p['name']}" class="product-image" loading="lazy">
+                    <img src="{p_img}" alt="{p['name']}" class="product-image" loading="lazy">
                 </div>
                 <div class="product-info">
                     <h2 class="product-title">{p['name']}</h2>
                     <p class="product-desc">{p['desc']}</p>
                     <div class="product-footer">
-                        <span class="product-price">{p['price']}</span>
-                        <a href="{wa_url}" target="_blank" class="btn-buy">Lo quiero</a>
+                        <span class="product-price">{p_price}</span>
+                        <div style="display:flex; gap: 8px;">
+                            <button onclick="addToCart('{p_name_esc}', '{p_price}', '{p_img}')" class="btn-buy" style="padding: 12px; background: var(--secondary-color); color: var(--accent-color); font-size: 1.2rem;" title="Agregar al carrito">🛒</button>
+                            <button onclick="buySingle('{p_name_esc}', '{p_price}')" class="btn-buy">Lo quiero</button>
+                        </div>
                     </div>
                 </div>
             </div>
 '''
 
+
 html_template += '''
+
         </div>
     </div>
+    
+    <!-- Modal Nombre -->
+    <div class="menu-overlay" id="name-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
+        <div style="background: var(--white); padding: 30px; border-radius: 16px; width: 90%; max-width: 400px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
+            <button onclick="closeNameModal()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
+            <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 10px; text-align: center;">Tus datos</h2>
+            <p style="font-size: 0.95rem; color: var(--text-color); text-align: center;">Ingresá tu nombre y apellido para enviarnos el pedido por WhatsApp.</p>
+            <input type="text" id="user-name-input" class="input-name" placeholder="Ej. María Pérez">
+            <button onclick="submitName()" class="btn-buy" style="margin-top: 20px; width: 100%;">Continuar a WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- Modal Carrito -->
+    <div class="menu-overlay" id="cart-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
+        <div style="background: var(--white); padding: 30px; border-radius: 16px; width: 90%; max-width: 500px; max-height: 80vh; overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
+            <button onclick="closeCart()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
+            <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 20px; text-align: center;">Tu Carrito 🛒</h2>
+            
+            <div id="cart-items-container">
+                <!-- Javascript will populate this -->
+            </div>
+            
+            <div style="margin-top: 20px; padding-top: 20px; border-top: 2px solid var(--secondary-color); display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 1.2rem; font-family: 'Playfair Display', serif; color: var(--accent-color); font-weight: bold;">Total:</span>
+                <span id="cart-total-price" style="font-size: 1.5rem; font-weight: bold; color: var(--text-color);">$0</span>
+            </div>
+            <button onclick="buyCart()" class="btn-buy" style="margin-top: 20px; width: 100%;">Pedir Carrito por WhatsApp</button>
+        </div>
+    </div>
+    
     <script>
+
         const menuBtn = document.getElementById('menu-btn');
         const closeBtn = document.getElementById('close-btn');
         const sideMenu = document.getElementById('side-menu');

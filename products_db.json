@@ -900,15 +900,6 @@
     "link": "https://www.wearehome.com.ar/productos/bolsa-para-el-auto-hojas-1nr0a/"
   },
   {
-    "name": "Paño cocina Picnic Azul",
-    "price": "$6.300",
-    "original_price": "$4.450,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/9f61c927-2c7f-44e8-a0b8-dba46b107fe7-49f3668e64a767c11e17787816721930-240-0.webp",
-    "desc": "Añade un toque único a tu hogar con Paño cocina Picnic Azul. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pano-cocina-picnic-azul-1reja/"
-  },
-  {
     "name": "Paño cocina Picnic Verde",
     "price": "$6.300",
     "original_price": "$4.450,00",
@@ -4113,33 +4104,6 @@
     "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-gris-rayas-combinadas-blancas/"
   },
   {
-    "name": "Trapito de piso Bienvenidos a Casa | Gris",
-    "price": "$4.500",
-    "original_price": "$3.200,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2628-96cc6569e936b2651a17543583777206-240-0.webp",
-    "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-bienvenidos-a-casa-gris/"
-  },
-  {
-    "name": "Trapito de piso Bienvenidos a Casa | Crudo",
-    "price": "$4.500",
-    "original_price": "$3.200,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2614-436cf47ade0fc8b51417543583446713-240-0.webp",
-    "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-bienvenidos-a-casa-crudo/"
-  },
-  {
-    "name": "Alfombra Petit (70x150) | Gris franjas blancas",
-    "price": "$16.000",
-    "original_price": "$8.110,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000174690-63daf255501d2aae6d17541592079873-240-0.jpg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Gris franjas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-gris-franjas-blancas/"
-  },
-  {
     "name": "Alfombra Cuadrada (150x150) | Rayas finas negras",
     "price": "$21.000",
     "original_price": "$14.099,00",
@@ -4147,15 +4111,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Rayas finas negras. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-rayas-finas-negras/"
-  },
-  {
-    "name": "Alfombra Cuadrada (150x150) | Gris rayas combinadas blancas",
-    "price": "$21.000",
-    "original_price": "$14.099,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000160879-ae397b23ecdcb30a4d17541588536944-240-0.jpg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Gris rayas combinadas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-gris-rayas-combinadas-blancas/"
   },
   {
     "name": "Alfombra Cuadrada (150x150) | Gris franjas blancas",
@@ -4678,15 +4633,6 @@
     "desc": "Añade un toque único a tu hogar con Camino Ipanema | Crudo raya simple. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración. Medida: 45x250cm.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/camino-ipanema-crudo-raya-simple/"
-  },
-  {
-    "name": "Camino Ipanema | Crudo liso",
-    "price": "$20.500",
-    "original_price": "$12.220,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0948-80e44a78958ab2ddf417495963380114-240-0.webp",
-    "desc": "Añade un toque único a tu hogar con Camino Ipanema | Crudo liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración. Medida: 45x250cm.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-ipanema-crudo-liso/"
   },
   {
     "name": "Camino Ipanema | Verde seco",
@@ -9106,6 +9052,15 @@
     "desc": "Añade un toque único a tu hogar con Pack x 3 cocina Cuadrille negro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Sin stock",
     "link": "https://www.wearehome.com.ar/productos/pack-x-3-cocina-cuadrille-negro-1hqmq/"
+  },
+  {
+    "name": "Paño cocina Picnic Azul",
+    "price": "$6.300",
+    "original_price": "$4.450,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/9f61c927-2c7f-44e8-a0b8-dba46b107fe7-49f3668e64a767c11e17787816721930-240-0.webp",
+    "desc": "Añade un toque único a tu hogar con Paño cocina Picnic Azul. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Sin stock",
+    "link": "https://www.wearehome.com.ar/productos/pano-cocina-picnic-azul-1reja/"
   },
   {
     "name": "Mini Pillow Mascotas | Verde",
@@ -19908,6 +19863,15 @@
     "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-franja-bordeaux/"
   },
   {
+    "name": "Alfombra Cuadrada (150x150) | Gris rayas combinadas blancas",
+    "price": "$21.000",
+    "original_price": "$14.099,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000160879-ae397b23ecdcb30a4d17541588536944-240-0.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Gris rayas combinadas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Sin stock",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-gris-rayas-combinadas-blancas/"
+  },
+  {
     "name": "Manta Pampa Cuadrada (150x150) | Gris",
     "price": "$17.100",
     "original_price": "$14.099,00",
@@ -21634,6 +21598,15 @@
     "desc": "Añade un toque único a tu hogar con Necessaire volados | Tostado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Sin stock",
     "link": "https://www.wearehome.com.ar/productos/necessaire-volados-tostado/"
+  },
+  {
+    "name": "Camino Ipanema | Crudo liso",
+    "price": "$20.500",
+    "original_price": "$12.220,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0948-80e44a78958ab2ddf417495963380114-240-0.webp",
+    "desc": "Añade un toque único a tu hogar con Camino Ipanema | Crudo liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración. Medida: 45x250cm.",
+    "stock_msg": "Sin stock",
+    "link": "https://www.wearehome.com.ar/productos/camino-ipanema-crudo-liso/"
   },
   {
     "name": "Individual Ipanema | Crudo liso",
