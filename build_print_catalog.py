@@ -156,10 +156,6 @@ def build_print_catalog():
             margin: 0 0 5px 0;
             line-height: 1.2;
             color: #3b302c;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
         }
 
         .product-desc {
@@ -167,10 +163,6 @@ def build_print_catalog():
             color: #7a6e69;
             margin: 0 0 10px 0;
             line-height: 1.3;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
             flex-grow: 1;
         }
         
