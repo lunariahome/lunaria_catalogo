@@ -645,10 +645,20 @@ html_template = f'''<!DOCTYPE html>
                 font-size: 2rem;
             }}
         }}
+    
+        .modal-overlay {{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 3000;
+        }}
     </style>
 </head>
 <body>
-    <div class="menu-overlay" id="welcome-overlay" style="display: flex; justify-content: center; align-items: center; z-index: 2000;">
+    <div class="modal-overlay" id="welcome-overlay" style="display: flex; justify-content: center; align-items: center; z-index: 2000;">
         <div style="background: var(--white); padding: 40px; border-radius: 16px; text-align: center; max-width: 400px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
             <button onclick="document.getElementById('welcome-overlay').style.display='none'" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
             <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 20px;">Bienvenido a LUNARIA</h2>
@@ -724,7 +734,7 @@ html_template += '''
     <div id="toast">Producto agregado al carrito ✅</div>
 
     <!-- Modal Nombre -->
-    <div class="menu-overlay" id="name-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
+    <div class="modal-overlay" id="name-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
         <div style="background: var(--white); padding: 30px; border-radius: 16px; width: 90%; max-width: 400px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
             <button onclick="closeNameModal()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
             <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 10px; text-align: center;">Tus datos</h2>
@@ -735,7 +745,7 @@ html_template += '''
     </div>
 
     <!-- Modal Carrito -->
-    <div class="menu-overlay" id="cart-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
+    <div class="modal-overlay" id="cart-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
         <div style="background: var(--white); padding: 30px; border-radius: 16px; width: 90%; max-width: 500px; max-height: 80vh; overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
             <button onclick="closeCart()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
             <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 20px; text-align: center;">Tu Carrito 🛒</h2>
