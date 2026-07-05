@@ -99,15 +99,6 @@
     "link": "https://www.wearehome.com.ar/productos/alfombra-bano-rectangular-ondas-natural-18nj7/"
   },
   {
-    "name": "Alfombra baño Dora Ovalada | Natural",
-    "price": "$11.000",
-    "original_price": "$6.665,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/2a44899f-5108-44ee-899f-26eb3e44bfbf-87a3cb02005f4a70ad17824989388093-240-0.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra baño Dora Ovalada | Natural. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-bano-dora-ovalada-natural-1nx99/"
-  },
-  {
     "name": "Alfombra baño Rectangular Ondas | Gris",
     "price": "$11.000",
     "original_price": "$6.665,00",
@@ -142,15 +133,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra baño Rectangular a Rayas | Natural. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-bano-rectangular-a-rayas-natural-1fhzy/"
-  },
-  {
-    "name": "Manta india Plumas Gris",
-    "price": "$22.700",
-    "original_price": "$16.530,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7394-3aef41c1516b769b0517824965081161-240-0.webp",
-    "desc": "Añade un toque único a tu hogar con Manta india Plumas Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/manta-india-plumas-gris-wzr5p/"
   },
   {
     "name": "Manta india Plumas Verde",
@@ -565,15 +547,6 @@
     "desc": "Añade un toque único a tu hogar con Funda bidón Bomba USB 20L. | Hojas | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/funda-bidon-bomba-usb-20l-hojas-gris-qgh7d/"
-  },
-  {
-    "name": "Almohadón completo | Joy to the world | Rosa | 50x25cm",
-    "price": "$14.800",
-    "original_price": "$10.550,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/52565f36-ecad-4d05-b9e4-f2bc1893f3e7-eebd169b298d59440c17811930984903-240-0.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Joy to the world | Rosa | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-joy-to-the-world-rosa-50x25cm-ftv4q/"
   },
   {
     "name": "Alfombra Cloud rectangular 60x40",
@@ -4104,6 +4077,33 @@
     "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-gris-rayas-combinadas-blancas/"
   },
   {
+    "name": "Trapito de piso Bienvenidos a Casa | Gris",
+    "price": "$4.500",
+    "original_price": "$3.200,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2628-96cc6569e936b2651a17543583777206-240-0.webp",
+    "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-bienvenidos-a-casa-gris/"
+  },
+  {
+    "name": "Trapito de piso Bienvenidos a Casa | Crudo",
+    "price": "$4.500",
+    "original_price": "$3.200,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2614-436cf47ade0fc8b51417543583446713-240-0.webp",
+    "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-bienvenidos-a-casa-crudo/"
+  },
+  {
+    "name": "Alfombra Petit (70x150) | Gris franjas blancas",
+    "price": "$16.000",
+    "original_price": "$8.110,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000174690-63daf255501d2aae6d17541592079873-240-0.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Gris franjas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-gris-franjas-blancas/"
+  },
+  {
     "name": "Alfombra Cuadrada (150x150) | Rayas finas negras",
     "price": "$21.000",
     "original_price": "$14.099,00",
@@ -7110,6 +7110,24 @@
     "link": "https://www.wearehome.com.ar/productos/alfombra-bano-dora-ovalada-beige-wca78/"
   },
   {
+    "name": "Alfombra baño Dora Ovalada | Natural",
+    "price": "$11.000",
+    "original_price": "$6.665,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/2a44899f-5108-44ee-899f-26eb3e44bfbf-87a3cb02005f4a70ad17824989388093-240-0.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra baño Dora Ovalada | Natural. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Sin stock",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-bano-dora-ovalada-natural-1nx99/"
+  },
+  {
+    "name": "Manta india Plumas Gris",
+    "price": "$22.700",
+    "original_price": "$16.530,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7394-3aef41c1516b769b0517824965081161-240-0.webp",
+    "desc": "Añade un toque único a tu hogar con Manta india Plumas Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Sin stock",
+    "link": "https://www.wearehome.com.ar/productos/manta-india-plumas-gris-wzr5p/"
+  },
+  {
     "name": "Alfombra Malba Beige 90x60",
     "price": "$20.600",
     "original_price": "$15.030,00",
@@ -7819,6 +7837,15 @@
     "desc": "Añade un toque único a tu hogar con Almohadón completo | Flower | Verde | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Sin stock",
     "link": "https://www.wearehome.com.ar/productos/almohadon-completo-flower-verde-50x25cm-1f4mk/"
+  },
+  {
+    "name": "Almohadón completo | Joy to the world | Rosa | 50x25cm",
+    "price": "$14.800",
+    "original_price": "$10.550,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/52565f36-ecad-4d05-b9e4-f2bc1893f3e7-eebd169b298d59440c17811930984903-240-0.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo | Joy to the world | Rosa | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Sin stock",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-joy-to-the-world-rosa-50x25cm-ftv4q/"
   },
   {
     "name": "Almohadón completo | Ve por tus sueños | Gris | 50x25cm",

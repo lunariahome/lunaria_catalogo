@@ -599,6 +599,32 @@ html_template = f'''<!DOCTYPE html>
             cursor: pointer;
             font-size: 1.2rem;
         }}
+
+        #toast {{
+            visibility: hidden;
+            min-width: 250px;
+            background-color: var(--accent-color);
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            padding: 16px;
+            position: fixed;
+            z-index: 4000;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            font-size: 1rem;
+            font-family: 'Outfit', sans-serif;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+            opacity: 0;
+            transition: opacity 0.3s, bottom 0.3s;
+        }}
+        #toast.show {{
+            visibility: visible;
+            opacity: 1;
+            bottom: 50px;
+        }}
+
         .input-name {{
             width: 100%;
             padding: 12px;
@@ -693,6 +719,10 @@ html_template += '''
         </div>
     </div>
     
+
+    <!-- Toast Notification -->
+    <div id="toast">Producto agregado al carrito ✅</div>
+
     <!-- Modal Nombre -->
     <div class="menu-overlay" id="name-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
         <div style="background: var(--white); padding: 30px; border-radius: 16px; width: 90%; max-width: 400px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
