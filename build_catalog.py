@@ -638,11 +638,34 @@ html_template = f'''<!DOCTYPE html>
 
         @media (max-width: 768px) {{
             .catalog-grid {{
-                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-                gap: 25px;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }}
+            .product-card {{
+                padding: 10px;
+            }}
+            .product-title {{
+                font-size: 0.95rem;
+                margin-bottom: 5px;
+            }}
+            .product-desc {{
+                display: none;
+            }}
+            .product-price {{
+                font-size: 1.1rem;
+            }}
+            .product-footer {{
+                flex-direction: column;
+                align-items: stretch;
+                gap: 10px;
+            }}
+            .product-footer div {{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
             }}
             .header-title {{
-                font-size: 2rem;
+                font-size: 1.8rem;
             }}
         }}
     
@@ -679,6 +702,9 @@ html_template = f'''<!DOCTYPE html>
         <img src="{logo_path}" alt="LUNARIA bazar y deco" class="logo">
         <h1 class="header-title">LUNARIA</h1>
         <p class="header-subtitle">bazar y deco</p>
+        <a href="https://wa.me/5493476355526" target="_blank" class="cart-icon" style="right: 70px; text-decoration: none; display: flex; align-items: center; justify-content: center;" title="Consultas por WhatsApp">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 26px; height: 26px;">
+        </a>
         <div class="cart-icon" onclick="openCart()">
             🛒 <span id="cart-count">0</span>
         </div>
@@ -707,17 +733,14 @@ for p in unique_products:
             <div class="product-card" data-title="{p['name'].lower().replace('"', '')}">
                 <div class="image-container">
                     {stock_html}
-                    <img src="{p_img}" alt="{p['name']}" class="product-image" loading="lazy">
+                    <img src="{p_img}" alt="{p['name']}" class="product-image" loading="lazy" onclick="openLightbox('{p_img}')" style="cursor: zoom-in;">
                 </div>
                 <div class="product-info">
                     <h2 class="product-title">{p['name']}</h2>
                     <p class="product-desc">{p['desc']}</p>
                     <div class="product-footer">
                         <span class="product-price">{p_price}</span>
-                        <div style="display:flex; gap: 8px;">
-                            <button onclick="addToCart('{p_name_esc}', '{p_price}', '{p_img}')" class="btn-buy" style="padding: 12px; background: var(--secondary-color); color: var(--accent-color); font-size: 1.2rem;" title="Agregar al carrito">🛒</button>
-                            <button onclick="buySingle('{p_name_esc}', '{p_price}')" class="btn-buy">Lo quiero</button>
-                        </div>
+                        <button onclick="addToCart('{p_name_esc}', '{p_price}', '{p_img}')" class="btn-buy" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px;">Agregar al carrito 🛒</button>
                     </div>
                 </div>
             </div>
@@ -730,7 +753,13 @@ html_template += '''
     </div>
     
 
-    <!-- Toast Notification -->
+    
+    <!-- Lightbox Modal -->
+    <div class="modal-overlay" id="lightbox-modal" style="display: none; justify-content: center; align-items: center; z-index: 4000; background: rgba(0,0,0,0.8);" onclick="closeLightbox()">
+        <button onclick="closeLightbox()" style="position: absolute; top: 15px; right: 25px; background: none; border: none; font-size: 3rem; color: #fff; cursor: pointer; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">&times;</button>
+        <img id="lightbox-img" src="" style="max-width: 90%; max-height: 85vh; border-radius: 8px; box-shadow: 0 10px 40px rgba(0,0,0,0.5);" onclick="event.stopPropagation()">
+    </div>
+\n    <!-- Toast Notification -->
     <div id="toast">Producto agregado al carrito ✅</div>
 
     <!-- Modal Nombre -->
@@ -765,7 +794,15 @@ html_template += '''
     <script>\n
         let cart = [];
         let pendingAction = null; // 'single' or 'cart'
-        let pendingItem = null;
+        let pendingItem = null;\n
+        function openLightbox(src) {
+            document.getElementById('lightbox-img').src = src;
+            document.getElementById('lightbox-modal').style.display = 'flex';
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox-modal').style.display = 'none';
+        }
+
 
         function updateCartUI() {
             document.getElementById('cart-count').innerText = cart.length;
