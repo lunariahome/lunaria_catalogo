@@ -111,11 +111,11 @@ def build_print_catalog():
             -webkit-text-fill-color: transparent;
         }
 
-        /* Grilla de 6 productos por página */
+        /* Grilla de 4 productos por página */
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
             gap: 15mm;
             height: 220mm; /* espacio restante */
         }
@@ -130,10 +130,11 @@ def build_print_catalog():
             padding: 10mm;
             box-shadow: 0 4px 15px rgba(139, 107, 85, 0.05);
             border: 1px solid rgba(139, 107, 85, 0.1);
+            overflow: hidden;
         }
         
         .product-img-wrapper {
-            height: 80mm;
+            height: 55mm; /* Ajustado para que no se corte */
             width: 100%;
             display: flex;
             justify-content: center;
@@ -170,6 +171,7 @@ def build_print_catalog():
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            flex-grow: 1;
         }
         
         .product-price {
@@ -204,7 +206,7 @@ def build_print_catalog():
     </div>
 """
 
-    items_per_page = 6
+    items_per_page = 4
     total_pages = math.ceil(len(available_products) / items_per_page)
 
     for i in range(total_pages):
@@ -226,7 +228,6 @@ def build_print_catalog():
             </div>\n'''
             
         html += '        </div>\n'
-        html += f'        <div class="page-footer">Página {i + 1} de {total_pages} - @_lunariahome_</div>\n'
         html += '    </div>\n'
 
     html += """</body>

@@ -108,20 +108,6 @@ while True:
             
             desc = f'Añade un toque único a tu hogar con {name}. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.'
             
-            if 'camino' in name.lower() and link:
-                try:
-                    import re
-                    req_detail = urllib.request.Request(link, headers={'User-Agent': 'Mozilla/5.0'})
-                    html_detail = urllib.request.urlopen(req_detail, timeout=5).read()
-                    soup_detail = BeautifulSoup(html_detail, 'html.parser')
-                    desc_el = soup_detail.select_one('.product-description')
-                    if desc_el:
-                        m = re.search(r'(\d+\s*[xX]\s*\d+)', desc_el.text, re.IGNORECASE)
-                        if m:
-                            desc += f' Medida: {m.group(1)}cm.'
-                except Exception:
-                    pass
-            
             import re
             actual_stock = -1
             stock_span = item.find('span', attrs={'data-store': re.compile(r'^stock-product-')})
@@ -180,6 +166,51 @@ for p in products:
     if p['name'] not in seen:
         seen.add(p['name'])
         unique_products.append(p)
+
+import concurrent.futures
+import re
+import time
+import urllib.error
+
+fetched_count = 0
+
+def fetch_desc(p):
+    global fetched_count
+    link = p.get('link')
+    if not link:
+        fetched_count += 1
+        return p
+        
+    for attempt in range(3):
+        try:
+            req_detail = urllib.request.Request(link, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+            html_detail = urllib.request.urlopen(req_detail, timeout=10).read()
+            soup_detail = BeautifulSoup(html_detail, 'html.parser')
+            desc_el = soup_detail.select_one('.product-description')
+            if desc_el:
+                desc_text = desc_el.get_text(separator=' ').strip()
+                desc_text = re.sub(r'\s+', ' ', desc_text)
+                if desc_text:
+                    p['desc'] = desc_text
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                time.sleep(2 * (attempt + 1))
+            else:
+                break
+        except Exception as e:
+            break
+            
+    fetched_count += 1
+    if fetched_count % 50 == 0:
+        print(f"Fetched {fetched_count} descriptions...", flush=True)
+    time.sleep(0.3)
+    return p
+
+print("Fetching product descriptions in parallel with rate limiting...", flush=True)
+with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    unique_products = list(executor.map(fetch_desc, unique_products))
+print(f"Finished fetching {fetched_count} descriptions.", flush=True)
 
 # Filtered categories
 categories_data = [
