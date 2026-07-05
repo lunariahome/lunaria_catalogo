@@ -354,10 +354,12 @@ html_template = f'''<!DOCTYPE html>
         
         /* Collapsible Menu Styles */
         .menu-toggle {{
-            position: absolute;
+            position: fixed;
             top: 30px;
             left: 20px;
-            background: none;
+            background: var(--white);
+    padding: 10px;
+    border-radius: 12px;
             border: none;
             cursor: pointer;
             display: flex;
@@ -547,7 +549,7 @@ html_template = f'''<!DOCTYPE html>
             transform: translateY(-2px);
         }}
         .cart-icon {{
-            position: absolute;
+            position: fixed;
             right: 20px;
             top: 25px;
             font-size: 1.8rem;
