@@ -721,6 +721,14 @@ justify-content: center;
 z-index: 1000;
 }}
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VSM2205S6X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-VSM2205S6X');
+</script>
 </head>
 <body>
     <div class="modal-overlay" id="welcome-overlay" style="display: flex; justify-content: center; align-items: center; z-index: 2000;">
