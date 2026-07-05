@@ -122,18 +122,38 @@ while True:
                 except Exception:
                     pass
             
+            import re
+            actual_stock = -1
+            stock_span = item.find('span', attrs={'data-store': re.compile(r'^stock-product-')})
+            if stock_span:
+                parts = stock_span['data-store'].split('-')
+                if len(parts) >= 4:
+                    try:
+                        actual_stock = int(parts[-1])
+                    except:
+                        pass
+            
             stock_msg = ''
             stock_el = item.select_one('.js-stock-label')
             if stock_el:
                 style = stock_el.get('style', '').replace(' ', '').lower()
                 if 'display:none' not in style:
                     msg = stock_el.text.strip()
-                    if msg:
-                        stock_msg = msg
-                    elif stock_el.has_attr('data-label') and stock_el['data-label']:
-                        stock_msg = stock_el['data-label']
+                    if msg or (stock_el.has_attr('data-label') and stock_el['data-label']):
+                        actual_stock = 0
             
-            # Tiendanube also shows "pocas unidades" in some tags if configured
+            if actual_stock == -1:
+                # If no stock span found, assume plenty? Or maybe 0?
+                # Actually if it has no span and no out of stock label, it means infinite stock (e.g. no stock tracking)
+                catalog_stock = ''
+                stock_msg = ''
+            else:
+                catalog_stock = max(0, actual_stock - 1)
+                if actual_stock == 0 or catalog_stock == 0:
+                    stock_msg = 'Agotado'
+                    catalog_stock = 0
+                else:
+                    stock_msg = f'Stock: {catalog_stock}'
             
             products.append({
                 'name': name,
@@ -142,7 +162,9 @@ while True:
                 'img': img,
                 'desc': desc,
                 'stock_msg': stock_msg,
-                'link': link
+                'link': link,
+                'actual_stock': actual_stock,
+                'catalog_stock': catalog_stock if actual_stock != -1 else 'Ilimitado'
             })
             
         print(f'Scraped page {page} ({len(items)} items)')
@@ -365,7 +387,7 @@ html_template = f'''<!DOCTYPE html>
             display: flex;
             flex-direction: column;
             gap: 6px;
-            z-index: 200;
+            z-index: 9999;
         }}
         .menu-toggle span {{
             display: block;
@@ -544,11 +566,19 @@ html_template = f'''<!DOCTYPE html>
             text-decoration: none;
             text-align: center;
         }}
+
+        .btn-buy.disabled {{
+            background-color: #ccc !important;
+            color: #666 !important;
+            cursor: not-allowed !important;
+            box-shadow: none !important;
+        }}
         .btn-buy:hover {{
             background-color: #705543;
             transform: translateY(-2px);
         }}
         .cart-icon {{
+    z-index: 9999;
             position: fixed;
             right: 20px;
             top: 25px;
@@ -741,6 +771,11 @@ for p in unique_products:
         p_img = p['img']
         p_price = p['price']
         
+        is_agotado = (p.get('stock_msg') == 'Agotado')
+        btn_class = 'btn-buy disabled' if is_agotado else 'btn-buy'
+        btn_attr = 'disabled' if is_agotado else ''
+        btn_text = 'Agotado' if is_agotado else 'Agregar al carrito 🛒'
+        
         html_template += f'''
             <div class="product-card" data-title="{p['name'].lower().replace('"', '')}">
                 <div class="image-container">
@@ -752,7 +787,7 @@ for p in unique_products:
                     <p class="product-desc">{p['desc']}</p>
                     <div class="product-footer">
                         <span class="product-price">{p_price}</span>
-                        <button onclick="addToCart('{p_name_esc}', '{p_price}', '{p_img}')" class="btn-buy" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px;">Agregar al carrito 🛒</button>
+                        <button onclick="addToCart('{p_name_esc}', '{p_price}', '{p_img}')" class="{btn_class}" {btn_attr} style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px;">{btn_text}</button>
                     </div>
                 </div>
             </div>
@@ -975,5 +1010,38 @@ with open('index.html', 'w', encoding='utf-8') as f:
 
 with open('products_db.json', 'w', encoding='utf-8') as f:
     json.dump(unique_products, f, ensure_ascii=False, indent=2)
+
+
+import os
+import pandas as pd
+excel_path = r'C:\Users\sebas\Desktop\ANTIGRAVITY\Precios_Manuales.xlsx'
+if os.path.exists(excel_path):
+    try:
+        df = pd.read_excel(excel_path)
+        
+        # Create a dictionary of stock from scraped products
+        stock_map_real = {p['name']: p.get('actual_stock', '') for p in unique_products}
+        stock_map_cat = {p['name']: p.get('catalog_stock', '') for p in unique_products}
+        
+        # Add columns if they don't exist
+        if 'Stock Real' not in df.columns:
+            df['Stock Real'] = ''
+        if 'Stock Catalogo (N-1)' not in df.columns:
+            df['Stock Catalogo (N-1)'] = ''
+            
+        # Update rows
+        df['Stock Real'] = df['Stock Real'].astype('object')
+        df['Stock Catalogo (N-1)'] = df['Stock Catalogo (N-1)'].astype('object')
+        for idx, row in df.iterrows():
+            name = row.get('Nombre del Producto')
+            if name in stock_map_real:
+                df.at[idx, 'Stock Real'] = str(stock_map_real[name])
+                df.at[idx, 'Stock Catalogo (N-1)'] = str(stock_map_cat[name])
+                
+        df.to_excel(excel_path, index=False)
+        print(f"Updated stock in {excel_path}")
+    except Exception as e:
+        print(f"Failed to update excel: {e}")
+
 
 print(f'Generated catalog and DB with {len(unique_products)} products.')
