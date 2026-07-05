@@ -125,11 +125,13 @@ while True:
             stock_msg = ''
             stock_el = item.select_one('.js-stock-label')
             if stock_el:
-                msg = stock_el.text.strip()
-                if msg and msg.lower() != 'sin stock' and 'display:none' not in stock_el.get('style', '').replace(' ', ''):
-                    stock_msg = msg
-                elif stock_el.has_attr('data-label') and stock_el['data-label']:
-                    stock_msg = stock_el['data-label']
+                style = stock_el.get('style', '').replace(' ', '').lower()
+                if 'display:none' not in style:
+                    msg = stock_el.text.strip()
+                    if msg:
+                        stock_msg = msg
+                    elif stock_el.has_attr('data-label') and stock_el['data-label']:
+                        stock_msg = stock_el['data-label']
             
             # Tiendanube also shows "pocas unidades" in some tags if configured
             
