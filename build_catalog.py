@@ -678,7 +678,17 @@ html_template = f'''<!DOCTYPE html>
             background: rgba(0,0,0,0.5);
             z-index: 3000;
         }}
-    </style>
+    .whatsapp-icon {{
+position: absolute;
+top: 30px;
+right: 70px;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1000;
+}}
+</style>
 </head>
 <body>
     <div class="modal-overlay" id="welcome-overlay" style="display: flex; justify-content: center; align-items: center; z-index: 2000;">
@@ -702,7 +712,7 @@ html_template = f'''<!DOCTYPE html>
         <img src="{logo_path}" alt="LUNARIA bazar y deco" class="logo">
         <h1 class="header-title">LUNARIA</h1>
         <p class="header-subtitle">bazar y deco</p>
-        <a href="https://wa.me/5493476355526" target="_blank" class="cart-icon" style="right: 70px; text-decoration: none; display: flex; align-items: center; justify-content: center;" title="Consultas por WhatsApp">
+        <a href="https://wa.me/5493476355526" target="_blank" class="whatsapp-icon" title="Consultas por WhatsApp">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 26px; height: 26px;">
         </a>
         <div class="cart-icon" onclick="openCart()">
