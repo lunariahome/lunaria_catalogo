@@ -890,13 +890,14 @@ html_template += '''
                 return;
             }
             
+            let currentAction = pendingAction;
             closeNameModal();
             let waText = "";
             
-            if (pendingAction === 'single') {
+            if (currentAction === 'single') {
                 waText = `Hola, soy ${userName}, me interesa este producto:\n\n`;
                 waText += `*Nombre:* ${pendingItem.name}\n*Precio:* ${pendingItem.price}`;
-            } else if (pendingAction === 'cart') {
+            } else if (currentAction === 'cart') {
                 waText = `Hola, soy ${userName}, me interesan estos productos:\n\n`;
                 let total = 0;
                 cart.forEach((item, idx) => {
@@ -910,7 +911,7 @@ html_template += '''
             const waUrl = "https://wa.me/5493476355526?text=" + encodeURIComponent(waText);
             window.open(waUrl, "_blank");
             
-            if (pendingAction === 'cart') {
+            if (currentAction === 'cart') {
                 cart = [];
                 updateCartUI();
             }
