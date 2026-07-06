@@ -65,6 +65,28 @@ if os.path.exists('manual_prices.json'):
     with open('manual_prices.json', 'r', encoding='utf-8') as f:
         manual_prices = json.load(f)
 
+# Load catalog prices from Excel column C "Precio Catalogo (Actual)"
+# These override both manual_prices and the calculated markup
+catalog_prices = {}
+excel_path_for_prices = os.path.join(r'C:\Users\sebas\Desktop\ANTIGRAVITY', 'Precios_Manuales.xlsx')
+if os.path.exists(excel_path_for_prices):
+    try:
+        import openpyxl
+        wb = openpyxl.load_workbook(excel_path_for_prices)
+        ws = wb.active
+        for row in ws.iter_rows(min_row=2):
+            name = row[0].value
+            catalog_price = row[2].value  # Column C = "Precio Catalogo (Actual)"
+            if name and catalog_price:
+                try:
+                    val = float(str(catalog_price).replace('$', '').replace('.', '').replace(',', '.').strip())
+                    catalog_prices[name] = f"${int(val):,}".replace(',', '.')
+                except:
+                    pass
+        print(f"Loaded {len(catalog_prices)} catalog prices from Excel.")
+    except Exception as e:
+        print(f"Warning: Could not load Excel prices: {e}")
+
 # Scrape all products from all pages
 products = []
 page = 1
@@ -86,7 +108,9 @@ while True:
             if not (name_el and price_el): continue
             
             name = name_el.get('title') or name_el.get('aria-label') or name_el.text.strip()
-            if name in manual_prices:
+            if name in catalog_prices:
+                price = catalog_prices[name]
+            elif name in manual_prices:
                 price = format_manual_price(manual_prices[name])
             else:
                 price = calculate_markup(price_el.text.strip(), name)
