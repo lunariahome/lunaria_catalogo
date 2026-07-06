@@ -1,216 +1,15 @@
-import math
-import json
-import os
-import urllib.request
-import urllib.parse
-from bs4 import BeautifulSoup
-
-def format_manual_price(p):
-    p_clean = str(p).replace('$', '').replace('.', '').replace(',', '.').strip()
-    try:
-        val = float(p_clean)
-        return f"${int(val):,}".replace(',', '.')
-    except:
-        return f"${p}"
-
-def calculate_markup(price_str, name=""):
-    try:
-        clean_str = price_str.replace('$', '').replace('.', '').replace(',', '.').strip()
-        original_val = float(clean_str)
-        val = original_val
-        if val <= 3000:
-            val += 2500
-        elif val <= 7000:
-            val = (val * 1.40)
-        elif val <= 12000:
-            val = (val * 1.40)
-        elif val <= 17900:
-            val = (val * 1.35)
-        elif val <= 20000:
-            val = (val * 1.30)
-        elif val <= 25000:
-            val = (val * 1.25)
-        else:
-            val = (val * 1.20)
-            
-        name_lower = name.lower()
-        if 'camino' in name_lower:
-            val += 4000
-            
-        val = math.ceil(val / 100.0) * 100
-        
-        # Override rules
-        if 'alfombra' in name_lower and 'baño' in name_lower:
-            if val == 9000:
-                val = 10000
-        elif 'alfombra' in name_lower:
-            # Min profit 5500 for non-bath alfombras
-            if (val - original_val) < 5500:
-                val = original_val + 5500
-                val = math.ceil(val / 100.0) * 100
-        
-        if 'manta' in name_lower:
-            if (val - original_val) < 5500:
-                val = original_val + 5500
-                val = math.ceil(val / 100.0) * 100
-                
-        return f"${int(val):,}".replace(',', '.')
-    except Exception as e:
-        return price_str
-
 logo_path = 'logo.png'
+import json
+import unicodedata
 
-manual_prices = {}
-if os.path.exists('manual_prices.json'):
-    with open('manual_prices.json', 'r', encoding='utf-8') as f:
-        manual_prices = json.load(f)
-
-# Scrape all products from all pages
-products = []
-page = 1
-while True:
-    url = f'https://www.wearehome.com.ar/productos/?page={page}'
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+def strip_accents(s):
     try:
-        html = urllib.request.urlopen(req).read()
-        soup = BeautifulSoup(html, 'html.parser')
-        items = soup.select('.item')
-        if not items:
-            break
-            
-        for item in items:
-            name_el = item.select_one('.item-name')
-            price_el = item.select_one('.item-price')
-            img_el = item.select_one('img')
-            a_el = item.select_one('a')
-            if not (name_el and price_el): continue
-            
-            name = name_el.get('title') or name_el.get('aria-label') or name_el.text.strip()
-            if name in manual_prices:
-                price = format_manual_price(manual_prices[name])
-            else:
-                price = calculate_markup(price_el.text.strip(), name)
-            
-            link = a_el['href'] if a_el and a_el.has_attr('href') else ''
-            if link and not link.startswith('http'):
-                link = 'https://www.wearehome.com.ar' + link
-            img = ''
-            if img_el:
-                if img_el.has_attr('data-srcset'):
-                    srcset = img_el['data-srcset']
-                    img = srcset.split(',')[0].split(' ')[0]
-                    if img.startswith('//'):
-                        img = 'https:' + img
-                elif img_el.has_attr('src'):
-                    img = img_el['src']
-                    if img.startswith('//'):
-                        img = 'https:' + img
-            
-            desc = f'Añade un toque único a tu hogar con {name}. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.'
-            
-            import re
-            actual_stock = -1
-            stock_span = item.find('span', attrs={'data-store': re.compile(r'^stock-product-')})
-            if stock_span:
-                parts = stock_span['data-store'].split('-')
-                if len(parts) >= 4:
-                    try:
-                        actual_stock = int(parts[-1])
-                    except:
-                        pass
-            
-            stock_msg = ''
-            stock_el = item.select_one('.js-stock-label')
-            if stock_el:
-                style = stock_el.get('style', '').replace(' ', '').lower()
-                if 'display:none' not in style:
-                    msg = stock_el.text.strip()
-                    if msg or (stock_el.has_attr('data-label') and stock_el['data-label']):
-                        actual_stock = 0
-            
-            if actual_stock == -1:
-                # If no stock span found, assume plenty? Or maybe 0?
-                # Actually if it has no span and no out of stock label, it means infinite stock (e.g. no stock tracking)
-                catalog_stock = ''
-                stock_msg = ''
-            else:
-                catalog_stock = max(0, actual_stock - 1)
-                if actual_stock == 0 or catalog_stock == 0:
-                    stock_msg = 'Agotado'
-                    catalog_stock = 0
-                else:
-                    stock_msg = f'Stock: {catalog_stock}'
-            
-            products.append({
-                'name': name,
-                'price': price,
-                'original_price': price_el.text.strip(),
-                'img': img,
-                'desc': desc,
-                'stock_msg': stock_msg,
-                'link': link,
-                'actual_stock': actual_stock,
-                'catalog_stock': catalog_stock if actual_stock != -1 else 'Ilimitado'
-            })
-            
-        print(f'Scraped page {page} ({len(items)} items)')
-        page += 1
+        return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
+    except:
+        return s
 
-    except Exception as e:
-        print(f'Error scraping page {page}: {e}')
-        break
-
-seen = set()
-unique_products = []
-for p in products:
-    if p['name'] not in seen:
-        seen.add(p['name'])
-        unique_products.append(p)
-
-import concurrent.futures
-import re
-import time
-import urllib.error
-
-fetched_count = 0
-
-def fetch_desc(p):
-    global fetched_count
-    link = p.get('link')
-    if not link:
-        fetched_count += 1
-        return p
-        
-    for attempt in range(3):
-        try:
-            req_detail = urllib.request.Request(link, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-            html_detail = urllib.request.urlopen(req_detail, timeout=10).read()
-            soup_detail = BeautifulSoup(html_detail, 'html.parser')
-            desc_el = soup_detail.select_one('.product-description')
-            if desc_el:
-                desc_text = desc_el.get_text(separator=' ').strip()
-                desc_text = re.sub(r'\s+', ' ', desc_text)
-                if desc_text:
-                    p['desc'] = desc_text
-            break
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(2 * (attempt + 1))
-            else:
-                break
-        except Exception as e:
-            break
-            
-    fetched_count += 1
-    if fetched_count % 50 == 0:
-        print(f"Fetched {fetched_count} descriptions...", flush=True)
-    time.sleep(0.3)
-    return p
-
-print("Fetching product descriptions in parallel with rate limiting...", flush=True)
-with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-    unique_products = list(executor.map(fetch_desc, unique_products))
-print(f"Finished fetching {fetched_count} descriptions.", flush=True)
+with open('products_db.json', 'r', encoding='utf-8') as f:
+    unique_products = json.load(f, strict=False)
 
 # Filtered categories
 categories_data = [
@@ -816,7 +615,7 @@ for p in unique_products:
         btn_text = 'Agotado' if is_agotado else 'Agregar al carrito 🛒'
         
         html_template += f'''
-            <div class="product-card" data-title="{p['name'].lower().replace('"', '')}">
+            <div class="product-card" data-title="{strip_accents(p['name']).lower().replace('"', '')}">
                 <div class="image-container">
                     {stock_html}
                     <img src="{p_img}" alt="{p['name']}" class="product-image" loading="lazy" onclick="openLightbox('{p_img}')" style="cursor: zoom-in;">
@@ -1051,37 +850,3 @@ with open('index.html', 'w', encoding='utf-8') as f:
 with open('products_db.json', 'w', encoding='utf-8') as f:
     json.dump(unique_products, f, ensure_ascii=False, indent=2)
 
-
-import os
-import pandas as pd
-excel_path = r'C:\Users\sebas\Desktop\ANTIGRAVITY\Precios_Manuales.xlsx'
-if os.path.exists(excel_path):
-    try:
-        df = pd.read_excel(excel_path)
-        
-        # Create a dictionary of stock from scraped products
-        stock_map_real = {p['name']: p.get('actual_stock', '') for p in unique_products}
-        stock_map_cat = {p['name']: p.get('catalog_stock', '') for p in unique_products}
-        
-        # Add columns if they don't exist
-        if 'Stock Real' not in df.columns:
-            df['Stock Real'] = ''
-        if 'Stock Catalogo (N-1)' not in df.columns:
-            df['Stock Catalogo (N-1)'] = ''
-            
-        # Update rows
-        df['Stock Real'] = df['Stock Real'].astype('object')
-        df['Stock Catalogo (N-1)'] = df['Stock Catalogo (N-1)'].astype('object')
-        for idx, row in df.iterrows():
-            name = row.get('Nombre del Producto')
-            if name in stock_map_real:
-                df.at[idx, 'Stock Real'] = str(stock_map_real[name])
-                df.at[idx, 'Stock Catalogo (N-1)'] = str(stock_map_cat[name])
-                
-        df.to_excel(excel_path, index=False)
-        print(f"Updated stock in {excel_path}")
-    except Exception as e:
-        print(f"Failed to update excel: {e}")
-
-
-print(f'Generated catalog and DB with {len(unique_products)} products.')
