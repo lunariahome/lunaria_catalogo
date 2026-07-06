@@ -221,9 +221,9 @@ categories_data = [
         "subcategories": [
             {"name": "Yute", "keywords": ["yute"]},
             {"name": "Felpudos", "keywords": ["felpudo"]},
-            {"name": "BaÃ±o", "keywords": ["baÃ±o"]},
+            {"name": "Baño", "keywords": ["baÃ±o"]},
             {
-                "name": "AlgodÃ³n", 
+                "name": "Algodón", 
                 "keywords": ["algodon"],
                 "subcategories": [
                     {"name": "Cuyo", "keywords": ["cuyo"]},

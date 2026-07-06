@@ -22,7 +22,7 @@ categories_data = [
             {"name": "Felpudos", "keywords": ["felpudo"]},
             {"name": "Baño", "keywords": ["bano"]},
             {
-                "name": "AlgodÃ³n", 
+                "name": "Algodón", 
                 "keywords": ["algodon"],
                 "subcategories": [
                     {"name": "Cuyo", "keywords": ["cuyo"]},
