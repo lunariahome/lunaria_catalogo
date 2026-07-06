@@ -1,4 +1,4 @@
-﻿import math
+import math
 import json
 import os
 import urllib.request
@@ -40,7 +40,7 @@ def calculate_markup(price_str, name=""):
         val = math.ceil(val / 100.0) * 100
         
         # Override rules
-        if 'alfombra' in name_lower and 'baÃ±o' in name_lower:
+        if 'alfombra' in name_lower and 'baño' in name_lower:
             if val == 9000:
                 val = 10000
         elif 'alfombra' in name_lower:
@@ -106,7 +106,7 @@ while True:
                     if img.startswith('//'):
                         img = 'https:' + img
             
-            desc = f'AÃ±ade un toque Ãºnico a tu hogar con {name}. DiseÃ±ado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoraciÃ³n.'
+            desc = f'Añade un toque único a tu hogar con {name}. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.'
             
             import re
             actual_stock = -1
@@ -221,7 +221,7 @@ categories_data = [
         "subcategories": [
             {"name": "Yute", "keywords": ["yute"]},
             {"name": "Felpudos", "keywords": ["felpudo"]},
-            {"name": "Baño", "keywords": ["baÃ±o"]},
+            {"name": "Baño", "keywords": ["bano"]},
             {
                 "name": "Algodón", 
                 "keywords": ["algodon"],
@@ -240,7 +240,7 @@ categories_data = [
     {"name": "Contenedores / Cestos de ropa", "keywords": ["contenedor", "cesto"]},
     {
         "name": "Almohadones", 
-        "keywords": ["almohadon", "almohadÃ³n"],
+        "keywords": ["almohadon", "almohadón"],
         "subcategories": [
             {
                 "name": "Fundas", 
@@ -270,12 +270,12 @@ categories_data = [
     },
     {
         "name": "Para la mesa", 
-        "keywords": ["mesa", "mantel", "camino", "servilleta", "porta cubierto", "paÃ±o", "plato de sitio"],
+        "keywords": ["mesa", "mantel", "camino", "servilleta", "porta cubierto", "paño", "plato de sitio"],
         "subcategories": [
             {"name": "Manteles", "keywords": ["mantel"]},
             {"name": "Caminos de mesa", "keywords": ["camino de mesa", "caminos de mesa", "camino"]},
             {"name": "Servilletas", "keywords": ["servilleta"]},
-            {"name": "PaÃ±os", "keywords": ["paÃ±o"]},
+            {"name": "Paños", "keywords": ["paño"]},
             {"name": "Porta cubiertos", "keywords": ["porta cubierto", "porta cubiertos"]}
         ]
     },
@@ -324,7 +324,7 @@ html_template = f'''<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CatÃ¡logo LUNARIA bazar y deco</title>
+    <title>Catálogo LUNARIA bazar y deco</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <style>
         :root {{
@@ -773,16 +773,16 @@ z-index: 1000;
         <div style="background: var(--white); padding: 40px; border-radius: 16px; text-align: center; max-width: 400px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
             <button onclick="document.getElementById('welcome-overlay').style.display='none'" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
             <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 20px;">Bienvenido a LUNARIA</h2>
-            <p style="font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">RecordÃ¡ que trabajamos por encargue y el pedido se toma con una seÃ±a del 50%.</p>
+            <p style="font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">Recordá que trabajamos por encargue y el pedido se toma con una seña del 50%.</p>
             <button onclick="document.getElementById('welcome-overlay').style.display='none'" class="btn-buy" style="margin-top: 25px; width: 100%;">Entendido</button>
         </div>
     </div>
 
     <div class="top-bar">
-        SÃ­guenos en Instagram: <a href="https://instagram.com/_lunariahome_" target="_blank">@_lunariahome_</a>
+        Síguenos en Instagram: <a href="https://instagram.com/_lunariahome_" target="_blank">@_lunariahome_</a>
     </div>
     <header>
-        <button class="menu-toggle" id="menu-btn" aria-label="MenÃº">
+        <button class="menu-toggle" id="menu-btn" aria-label="Menú">
             <span></span>
             <span></span>
             <span></span>
@@ -794,7 +794,7 @@ z-index: 1000;
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 26px; height: 26px;">
         </a>
         <div class="cart-icon" onclick="openCart()">
-            ðŸ›’ <span id="cart-count">0</span>
+            🛒 <span id="cart-count">0</span>
         </div>
     </header>
 
@@ -802,7 +802,7 @@ z-index: 1000;
     <div class="menu-overlay" id="overlay"></div>
     <div class="side-menu" id="side-menu">
         <button class="close-menu" id="close-btn">&times;</button>
-        <h3 style="padding: 0 25px; color: var(--accent-color); font-family: 'Playfair Display', serif;">CategorÃ­as</h3>
+        <h3 style="padding: 0 25px; color: var(--accent-color); font-family: 'Playfair Display', serif;">Categorías</h3>
         {cat_html}
     </div>
     
@@ -820,7 +820,7 @@ for p in unique_products:
         is_agotado = (p.get('stock_msg') == 'Agotado')
         btn_class = 'btn-buy disabled' if is_agotado else 'btn-buy'
         btn_attr = 'disabled' if is_agotado else ''
-        btn_text = 'Agotado' if is_agotado else 'Agregar al carrito ðŸ›’'
+        btn_text = 'Agotado' if is_agotado else 'Agregar al carrito 🛒'
         
         html_template += f'''
             <div class="product-card" data-title="{p['name'].lower().replace('"', '')}">
@@ -853,15 +853,15 @@ html_template += '''
         <img id="lightbox-img" src="" style="max-width: 90%; max-height: 85vh; border-radius: 8px; box-shadow: 0 10px 40px rgba(0,0,0,0.5);" onclick="event.stopPropagation()">
     </div>
 \n    <!-- Toast Notification -->
-    <div id="toast">Producto agregado al carrito âœ…</div>
+    <div id="toast">Producto agregado al carrito ✅</div>
 
     <!-- Modal Nombre -->
     <div class="modal-overlay" id="name-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
         <div style="background: var(--white); padding: 30px; border-radius: 16px; width: 90%; max-width: 400px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
             <button onclick="closeNameModal()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
             <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 10px; text-align: center;">Tus datos</h2>
-            <p style="font-size: 0.95rem; color: var(--text-color); text-align: center;">IngresÃ¡ tu nombre y apellido para enviarnos el pedido por WhatsApp.</p>
-            <input type="text" id="user-name-input" class="input-name" placeholder="Ej. MarÃ­a PÃ©rez">
+            <p style="font-size: 0.95rem; color: var(--text-color); text-align: center;">Ingresá tu nombre y apellido para enviarnos el pedido por WhatsApp.</p>
+            <input type="text" id="user-name-input" class="input-name" placeholder="Ej. María Pérez">
             <button onclick="submitName()" class="btn-buy" style="margin-top: 20px; width: 100%;">Continuar a WhatsApp</button>
         </div>
     </div>
@@ -870,7 +870,7 @@ html_template += '''
     <div class="modal-overlay" id="cart-modal" style="display: none; justify-content: center; align-items: center; z-index: 3000;">
         <div style="background: var(--white); padding: 30px; border-radius: 16px; width: 90%; max-width: 500px; max-height: 80vh; overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative;">
             <button onclick="closeCart()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: var(--accent-color); cursor: pointer;">&times;</button>
-            <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 20px; text-align: center;">Tu Carrito ðŸ›’</h2>
+            <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-bottom: 20px; text-align: center;">Tu Carrito 🛒</h2>
             
             <div id="cart-items-container">
                 <!-- Javascript will populate this -->
@@ -903,7 +903,7 @@ html_template += '''
             container.innerHTML = '';
             
             if (cart.length === 0) {
-                container.innerHTML = '<p style="text-align:center; color: #7a6e69;">Tu carrito estÃ¡ vacÃ­o.</p>';
+                container.innerHTML = '<p style="text-align:center; color: #7a6e69;">Tu carrito está vacío.</p>';
                 document.getElementById('cart-total-price').innerText = '$0';
                 return;
             }
@@ -963,7 +963,7 @@ html_template += '''
 
         function buyCart() {
             if (cart.length === 0) {
-                alert("AgregÃ¡ productos al carrito primero.");
+                alert("Agregá productos al carrito primero.");
                 return;
             }
             pendingAction = 'cart';
@@ -979,7 +979,7 @@ html_template += '''
         function submitName() {
             const userName = document.getElementById('user-name-input').value.trim();
             if (!userName) {
-                alert("Por favor, ingresÃ¡ tu nombre y apellido.");
+                alert("Por favor, ingresá tu nombre y apellido.");
                 return;
             }
             
@@ -1092,4 +1092,3 @@ if os.path.exists(excel_path):
 
 
 print(f'Generated catalog and DB with {len(unique_products)} products.')
-
