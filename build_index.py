@@ -26,7 +26,7 @@ categories_data = [
                 "keywords": ["algodon"],
                 "subcategories": [
                     {"name": "Cuyo", "keywords": ["cuyo"]},
-                    {"name": "Alfombras mantas rusticas", "keywords": ["mantas rusticas", "rustica"]},
+                    {"name": "Alfombras mantas rusticas", "keywords": ["mantas rusticas", "rustica", "alfombra xl", "alfombra petit", "alfombra chica", "alfombra 2x1", "manta pampa"]},
                     {"name": "Onairuyamolly", "keywords": ["onair", "uya", "molly", "onairuyamolly"]},
                     {"name": "Estampadas", "keywords": ["estampada"]},
                     {"name": "Otras", "keywords": []}
@@ -90,12 +90,19 @@ categories_data = [
     {"name": "Invierno", "keywords": ["invierno"]}
 ]
 
+def get_all_keywords(category):
+    all_kws = list(category.get("keywords", []))
+    for sub in category.get("subcategories", []):
+        all_kws.extend(get_all_keywords(sub))
+    return list(set(all_kws))
+
 def build_menu_html(categories, level=0):
     html = ""
     padding = 25 + (level * 15)
     for c in categories:
-        kws = ",".join(c["keywords"])
-        if "subcategories" in c:
+        all_kws_list = get_all_keywords(c)
+        kws = ",".join(all_kws_list)
+        if "subcategories" in c and c["subcategories"]:
             html += f'''
             <details class="menu-details">
                 <summary class="menu-item" style="padding-left: {padding}px">{c["name"]}</summary>
