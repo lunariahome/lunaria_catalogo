@@ -94,7 +94,7 @@ while True:
     url = f'https://www.wearehome.com.ar/productos/?page={page}'
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
-        html = urllib.request.urlopen(req).read()
+        html = urllib.request.urlopen(req).read().decode('utf-8', errors='ignore')
         soup = BeautifulSoup(html, 'html.parser')
         items = soup.select('.item')
         if not items:
@@ -134,14 +134,6 @@ while True:
             
             import re
             actual_stock = -1
-            stock_span = item.find('span', attrs={'data-store': re.compile(r'^stock-product-')})
-            if stock_span:
-                parts = stock_span['data-store'].split('-')
-                if len(parts) >= 4:
-                    try:
-                        actual_stock = int(parts[-1])
-                    except:
-                        pass
             
             stock_msg = ''
             stock_el = item.select_one('.js-stock-label')
@@ -208,7 +200,7 @@ def fetch_desc(p):
     for attempt in range(3):
         try:
             req_detail = urllib.request.Request(link, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-            html_detail = urllib.request.urlopen(req_detail, timeout=10).read()
+            html_detail = urllib.request.urlopen(req_detail, timeout=10).read().decode('utf-8', errors='ignore')
             soup_detail = BeautifulSoup(html_detail, 'html.parser')
             desc_el = soup_detail.select_one('.product-description')
             if desc_el:
@@ -216,6 +208,16 @@ def fetch_desc(p):
                 desc_text = re.sub(r'\s+', ' ', desc_text)
                 if desc_text:
                     p['desc'] = desc_text
+                    if 'alfombra' in p['name'].lower() or 'manta' in p['name'].lower():
+                        import re
+                        m1 = re.search(r'Medida.*?(\d+.*?x.*?\d+.*?cm)', desc_text, re.IGNORECASE)
+                        m2 = re.search(r'(\d+.*?x.*?\d+.*?cm)', desc_text, re.IGNORECASE)
+                        size = None
+                        if m1: size = m1.group(1)
+                        elif m2: size = m2.group(1)
+                        if size:
+                            if not p['name'].endswith(size.strip()):
+                                p['name'] = f"{p['name']} - {size.strip()}"
             break
         except urllib.error.HTTPError as e:
             if e.code == 429:
@@ -245,7 +247,7 @@ categories_data = [
         "subcategories": [
             {"name": "Yute", "keywords": ["yute"]},
             {"name": "Felpudos", "keywords": ["felpudo"]},
-            {"name": "Baño", "keywords": ["bano"]},
+            {"name": "Baño", "keywords": ["baño"]},
             {
                 "name": "Algodón", 
                 "keywords": ["algodon"],
@@ -844,7 +846,7 @@ for p in unique_products:
         is_agotado = (p.get('stock_msg') == 'Agotado')
         btn_class = 'btn-buy disabled' if is_agotado else 'btn-buy'
         btn_attr = 'disabled' if is_agotado else ''
-        btn_text = 'Agotado' if is_agotado else 'Agregar al carrito 🛒'
+        btn_text = 'Agotado' if is_agotado else 'Agregar al carrito'
         
         html_template += f'''
             <div class="product-card" data-title="{p['name'].lower().replace('"', '')}">
