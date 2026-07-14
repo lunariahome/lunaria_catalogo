@@ -7243,7 +7243,7 @@
                 waText += `\n*Total:* $${total.toLocaleString('es-AR')}`;
             }
             
-            const waUrl = "https://wa.me/5493476355526?text=" + encodeURIComponent(waText);
+            const waUrl = "https://api.whatsapp.com/send?phone=5493476355526&text=" + encodeURIComponent(waText);
             window.open(waUrl, "_blank");
             
             if (pendingAction === 'cart') {
