@@ -7201,10 +7201,15 @@
             let waText = "";
             
             if (pendingAction === 'single') {
-                waText = `Hola, soy ${userName}, me interesa este producto:\n\n`;
-                waText += `*Nombre:* ${pendingItem.name}\n*Precio:* ${pendingItem.price}`;
+                waText = `Hola, soy ${userName}, me interesa este producto:
+
+`;
+                waText += `*Nombre:* ${pendingItem.name}
+*Precio:* ${pendingItem.price}`;
             } else if (pendingAction === 'cart') {
-                waText = `Hola, soy ${userName}, me interesan estos productos:\n\n`;
+                waText = `Hola, soy ${userName}, me interesan estos productos:
+
+`;
                 let total = 0;
                 
                 const grouped = {};
@@ -7214,6 +7219,10 @@
                     }
                     grouped[item.name].count += 1;
                 });
+                
+                function formatMoney(n) {
+                    return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                }
                 
                 let idx = 1;
                 Object.keys(grouped).forEach(name => {
@@ -7237,22 +7246,25 @@
                     }
                     
                     total += groupTotal;
-                    waText += `${idx}. ${group.count}x ${name} ($${groupTotal.toLocaleString('es-AR')})\n`;
+                    waText += `${idx}. ${group.count}x ${name} ($${formatMoney(groupTotal)})
+`;
                     idx++;
                 });
-                waText += `\n*Total:* $${total.toLocaleString('es-AR')}`;
+                waText += `
+*Total:* $${formatMoney(total)}`;
             }
             
             const textEncoded = encodeURIComponent(waText);
-            const waUrl = "https://api.whatsapp.com/send/?phone=5493476355526&text=" + textEncoded;
+            const waUrl = "https://api.whatsapp.com/send?phone=5493476355526&text=" + textEncoded;
             
-            // Usar window.location.href en celulares para evitar bloqueos de popup o pérdida de contexto
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-            if (isMobile) {
-                window.location.href = waUrl;
-            } else {
-                window.open(waUrl, "_blank");
-            }
+            // Simular un click real en un enlace para evitar bloqueos de popup o limpieza de parámetros en iOS
+            const a = document.createElement('a');
+            a.href = waUrl;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
             
             if (pendingAction === 'cart') {
                 cart = [];
