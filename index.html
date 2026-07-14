@@ -7285,6 +7285,12 @@
             const track = container.querySelector('.carousel-track');
             track.style.transform = `translateX(-${current * 100}%)`;
             
+            // Fix para cargar imagenes ocultas en el carrusel
+            const images = track.querySelectorAll('.product-image');
+            if (images[current] && images[current].getAttribute('loading') === 'lazy') {
+                images[current].removeAttribute('loading');
+            }
+            
             const indicators = container.querySelectorAll('.indicator');
             indicators.forEach((ind, index) => {
                 if (index === current) {
