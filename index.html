@@ -7243,7 +7243,23 @@
                 waText += `\n*Total:* $${total.toLocaleString('es-AR')}`;
             }
             
-            const waUrl = "https://api.whatsapp.com/send?phone=5493476355526&text=" + encodeURIComponent(waText);
+            const textEncoded = encodeURIComponent(waText);
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            
+            let waUrl = "";
+            if (isMobile) {
+                // Para celulares, usamos el intent nativo que nunca pierde el texto
+                waUrl = "whatsapp://send?phone=5493476355526&text=" + textEncoded;
+                
+                // Fallback por si no tienen la app instalada
+                setTimeout(() => {
+                    window.location.href = "https://api.whatsapp.com/send?phone=5493476355526&text=" + textEncoded;
+                }, 500);
+            } else {
+                // Para PC
+                waUrl = "https://web.whatsapp.com/send?phone=5493476355526&text=" + textEncoded;
+            }
+            
             window.open(waUrl, "_blank");
             
             if (pendingAction === 'cart') {
