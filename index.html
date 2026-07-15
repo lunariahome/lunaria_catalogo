@@ -7199,15 +7199,18 @@
             closeNameModal();
             let waText = "";
             
+            function formatMoney(n) {
+                return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            }
+
             if (pendingAction === 'single') {
-                waText = `Hola, soy ${userName}, me interesa este producto:
-
+                waText = `Hola, soy ${userName}, mi pedido es:
 `;
-                waText += `*Nombre:* ${pendingItem.name}
-*Precio:* ${pendingItem.price}`;
+                waText += `- 1x ${pendingItem.name} (${pendingItem.price})
+`;
+                waText += `Total: ${pendingItem.price}`;
             } else if (pendingAction === 'cart') {
-                waText = `Hola, soy ${userName}, me interesan estos productos:
-
+                waText = `Hola, soy ${userName}, mi pedido es:
 `;
                 let total = 0;
                 
@@ -7218,10 +7221,6 @@
                     }
                     grouped[item.name].count += 1;
                 });
-                
-                function formatMoney(n) {
-                    return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-                }
                 
                 let idx = 1;
                 Object.keys(grouped).forEach(name => {
@@ -7245,12 +7244,11 @@
                     }
                     
                     total += groupTotal;
-                    waText += `${idx}. ${group.count}x ${name} ($${formatMoney(groupTotal)})
+                    waText += `- ${group.count}x ${name} ($${formatMoney(groupTotal)})
 `;
                     idx++;
                 });
-                waText += `
-*Total:* $${formatMoney(total)}`;
+                waText += `Total: $${formatMoney(total)}`;
             }
             
             const textEncoded = encodeURIComponent(waText);
