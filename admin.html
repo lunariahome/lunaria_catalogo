@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Admin - Ventas LUNARIA</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#a67b4b">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #fbf9f6;
+            --text-color: #3b302c;
+            --accent-color: #8b6b55;
+            --white: #ffffff;
+            --success: #2ecc71;
+            --error: #e74c3c;
+            --card-shadow: 0 8px 24px rgba(139, 107, 85, 0.12);
+        }
+        
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 500px;
+            min-height: 100vh;
+            background-color: var(--white);
+            box-shadow: var(--card-shadow);
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, #a67b4b, #d8ab76, #e9c996, #a67b4b);
+            background-size: 200% auto;
+            color: var(--white);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        
+        .tabs {
+            display: flex;
+            background: #eee;
+        }
+        .tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+            cursor: pointer;
+            color: #777;
+            border-bottom: 3px solid transparent;
+        }
+        .tab.active {
+            color: var(--accent-color);
+            border-bottom: 3px solid var(--accent-color);
+            background: #fff;
+        }
+
+        .content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--text-color);
+        }
+
+        textarea, select, input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            font-family: inherit;
+            font-size: 1rem;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+        
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+        
+        textarea:focus, select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 2px rgba(139, 107, 85, 0.2);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 30px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+            position: relative;
+        }
+        
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+
+        .btn-success {
+            background-color: var(--success);
+            color: var(--white);
+            margin-top: 10px;
+        }
+
+        .results-card {
+            background-color: #faf7f2;
+            border: 1px solid rgba(139, 107, 85, 0.2);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        .result-row:last-child {
+            margin-bottom: 0;
+            padding-top: 10px;
+            border-top: 1px dashed rgba(139, 107, 85, 0.3);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .ganancia-val {
+            color: var(--success);
+        }
+
+        .checkbox-wrapper {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .checkbox-wrapper input {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            accent-color: var(--accent-color);
+        }
+
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 30px;
+            padding: 16px;
+            position: fixed;
+            z-index: 100;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            font-size: 0.9rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein {
+            from {bottom: 0; opacity: 0;}
+            to {bottom: 30px; opacity: 1;}
+        }
+
+        @keyframes fadeout {
+            from {bottom: 30px; opacity: 1;}
+            to {bottom: 0; opacity: 0;}
+        }
+        
+        .spinner {
+            display: none;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .loading .spinner { display: block; }
+        .loading .btn-text { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <header>
+        <h1>Ventas LUNARIA (Admin)</h1>
+    </header>
+    
+    <div class="tabs">
+        <div class="tab active" onclick="switchTab('ventas')">Cargar Venta</div>
+        <div class="tab" onclick="switchTab('envios')">Estado Global</div>
+        <div class="tab" onclick="switchTab('estadisticas')">Estadísticas</div>
+    </div>
+    
+    <div class="content" id="tab-ventas">
+        <div class="form-group">
+            <label for="mensaje">Pegar mensaje de WhatsApp:</label>
+            <textarea id="mensaje" placeholder="Pega el mensaje del cliente aquí..."></textarea>
+        </div>
+        
+        <button id="btnProcesar" class="btn btn-primary" onclick="procesarMensaje()">
+            <span class="btn-text">Procesar Mensaje</span>
+            <div class="spinner"></div>
+        </button>
+        
+        <div id="resultsCard" class="results-card">
+            <!-- Los resultados se insertan dinámicamente aquí -->
+        </div>
+        
+        <div id="clienteSection" style="display: none;">
+            <div class="form-group">
+                <label for="cliente">Nombre del Cliente:</label>
+                <input type="text" id="cliente" placeholder="Ej. Ana Pérez">
+            </div>
+            
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="sena">
+                <label for="sena">¿Pagó seña?</label>
+            </div>
+            
+            <button id="btnGuardar" class="btn btn-success" onclick="guardarVenta()">
+                <span class="btn-text">Guardar en Google Sheets</span>
+                <div class="spinner"></div>
+            </button>
+        </div>
+    </div>
+    
+    <div class="content" id="tab-envios" style="display: none;">
+        <p style="color: #666; font-size: 0.9rem; margin-top: 0;">Actualiza el estado GLOBAL de todos los paquetes de esta tanda. Tus clientas lo verán inmediatamente en la web pública.</p>
+        
+        <div class="form-group">
+            <label for="nuevoEstado">Nuevo Estado Global:</label>
+            <select id="nuevoEstado">
+                <option value="En preparación (origen)">📦 En preparación (origen)</option>
+                <option value="Recolectado por empresa transportadora">🚚 Recolectado por empresa transportadora</option>
+                <option value="En camino">🛣️ En camino</option>
+                <option value="Llegó, pronto nos ponemos en contacto para entregártelo.">🏪 Llegó, pronto nos ponemos en contacto para entregártelo.</option>
+                <option value="Comienzo de reparto">✅ Comienzo de reparto</option>
+            </select>
+        </div>
+        
+        <button id="btnActualizar" class="btn btn-primary" onclick="actualizarEstadoGlobal()">
+            <span class="btn-text">Actualizar a todas las clientas</span>
+            <div class="spinner"></div>
+        </button>
+    </div>
+    
+    <div class="content" id="tab-estadisticas" style="display: none;">
+        <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-color); margin-top: 0; text-align: center;">Estadísticas de la Web</h2>
+        <p style="color: #666; font-size: 0.95rem; text-align: center;">Para ver cuánta gente entra, qué productos miran y de dónde vienen, usamos <b>Google Analytics</b>.</p>
+        <p style="color: #666; font-size: 0.95rem; text-align: center;">Una vez configurada tu cuenta, vas a poder ver el tráfico en tiempo real desde el panel oficial de Google.</p>
+        <br>
+        <a href="https://analytics.google.com/" target="_blank" class="btn btn-primary" style="text-decoration: none; display: block; text-align: center;">Abrir Google Analytics 📊</a>
+    </div>
+</div>
+
+<div id="toast">Notificación</div>
+
+<script>
+    let datosProductos = [];
+    let productsDB = [];
+    
+    const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbyFM0lk0Jug-mVb-cYRoSMfqGhfHEIvzXWykDhDM3YWl4vfFmDc9o2puhfe48Q4FumzYA/exec";
+
+    const formatoMoneda = new Intl.NumberFormat('es-AR', {
+        style: 'currency',
+        currency: 'ARS',
+        minimumFractionDigits: 0
+    });
+    
+    function switchTab(tab) {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.getElementById('tab-ventas').style.display = 'none';
+        document.getElementById('tab-envios').style.display = 'none';
+        document.getElementById('tab-estadisticas').style.display = 'none';
+        
+        if (tab === 'ventas') {
+            document.querySelectorAll('.tab')[0].classList.add('active');
+            document.getElementById('tab-ventas').style.display = 'block';
+        } else if (tab === 'envios') {
+            document.querySelectorAll('.tab')[1].classList.add('active');
+            document.getElementById('tab-envios').style.display = 'block';
+        } else {
+            document.querySelectorAll('.tab')[2].classList.add('active');
+            document.getElementById('tab-estadisticas').style.display = 'block';
+        }
+    }
+
+    fetch('products_db.json')
+        .then(response => response.json())
+        .then(data => { productsDB = data; })
+        .catch(error => { console.error(error); });
+
+    function showToast(msg, isError = false) {
+        const toast = document.getElementById("toast");
+        toast.textContent = msg;
+        toast.style.backgroundColor = isError ? "var(--error)" : "var(--success)";
+        toast.className = "show";
+        setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+    }
+
+    function limpiarPrecio(p_str) {
+        if (!p_str) return 0;
+        return parseFloat(p_str.replace('$', '').replace(/\./g, '').replace(',', '.').trim());
+    }
+
+    function procesarMensaje() {
+        if (productsDB.length === 0) {
+            showToast("La base de datos no cargó. Refresca la página.", true);
+            return;
+        }
+
+        const mensaje = document.getElementById("mensaje").value;
+        if (!mensaje.trim()) {
+            showToast("Por favor pega el mensaje primero.", true);
+            return;
+        }
+        
+        // 1. Extraer nombre del cliente: "Hola, soy [Nombre]"
+        let clienteDetectado = "";
+        const matchCliente = mensaje.match(/Hola,?\s*soy\s+([^\n\.,:]+)/i);
+        if (matchCliente && matchCliente[1]) {
+            clienteDetectado = matchCliente[1].trim();
+        }
+        document.getElementById("cliente").value = clienteDetectado;
+
+        // 2. Encontrar todos los productos mencionados en el mensaje
+        // Ordenamos por largo del nombre para evitar que un nombre corto pise a uno largo.
+        const sortedDB = [...productsDB].sort((a, b) => b.name.length - a.name.length);
+        let productosEncontrados = [];
+        let tempMensaje = mensaje.toLowerCase();
+        
+        for (let p of sortedDB) {
+            const pName = p.name.toLowerCase();
+            // Regex to find "Nx ProductName" or just "ProductName"
+            const escapedName = pName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`(?:(\\d+)x\\s+)?${escapedName}`, 'gi');
+            
+            let match;
+            while ((match = regex.exec(tempMensaje)) !== null) {
+                let qty = 1;
+                if (match[1]) {
+                    qty = parseInt(match[1]);
+                }
+                for (let i = 0; i < qty; i++) {
+                    productosEncontrados.push(p);
+                }
+            }
+            tempMensaje = tempMensaje.replace(regex, ""); 
+        }
+
+        if (productosEncontrados.length === 0) {
+            showToast("No se encontraron nombres exactos de productos en el mensaje.", true);
+            return;
+        }
+
+        // 3. Preparar datos para mostrar y guardar individualmente
+        datosProductos = productosEncontrados.map(p => {
+            const p_web = limpiarPrecio(p.original_price);
+            const p_cat = limpiarPrecio(p.price);
+            return {
+                nombre: p.name,
+                precio_web: p_web,
+                precio_cat: p_cat,
+                ganancia: p_cat - p_web
+            };
+        });
+
+        const resultsCard = document.getElementById("resultsCard");
+        resultsCard.innerHTML = "";
+        
+        datosProductos.forEach((prod, index) => {
+            resultsCard.innerHTML += `
+                <div style="margin-bottom: ${index < datosProductos.length - 1 ? '15px' : '0'}; ${index < datosProductos.length - 1 ? 'border-bottom: 1px dashed rgba(139,107,85,0.3); padding-bottom: 15px;' : ''}">
+                    <div class="result-row">
+                        <span>Producto:</span>
+                        <span style="font-weight: 600; text-align: right; max-width: 60%;">${prod.nombre}</span>
+                    </div>
+                    <div class="result-row">
+                        <span>Costo (Web):</span>
+                        <span>${formatoMoneda.format(prod.precio_web)}</span>
+                    </div>
+                    <div class="result-row">
+                        <span>Precio Catálogo:</span>
+                        <span>${formatoMoneda.format(prod.precio_cat)}</span>
+                    </div>
+                    <div class="result-row" style="margin-bottom: 0; padding-top: 5px; font-weight: 600; font-size: 1.1rem;">
+                        <span>Ganancia:</span>
+                        <span class="ganancia-val">${formatoMoneda.format(prod.ganancia)}</span>
+                    </div>
+                </div>
+            `;
+        });
+        
+        resultsCard.style.display = "block";
+        document.getElementById("clienteSection").style.display = "block";
+        
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    async function guardarVenta() {
+        if (!datosProductos || datosProductos.length === 0) return;
+        
+        const cliente = document.getElementById("cliente").value;
+        if (!cliente.trim()) {
+            showToast("Ingresa el nombre del cliente", true);
+            return;
+        }
+        
+        const btn = document.getElementById("btnGuardar");
+        btn.classList.add("loading");
+        
+        const sena = document.getElementById("sena").checked ? "Sí" : "No";
+        const fecha = new Date().toLocaleString("es-AR");
+
+        try {
+            for (let prod of datosProductos) {
+                const payload = {
+                    action: "nueva_venta",
+                    fecha: fecha,
+                    cliente: cliente,
+                    producto: prod.nombre,
+                    precio_web: prod.precio_web,
+                    precio_catalogo: prod.precio_cat,
+                    ganancia: prod.ganancia,
+                    sena: sena
+                };
+                
+                await fetch(GOOGLE_SHEETS_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+            }
+            
+            showToast("¡Venta(s) guardada(s) exitosamente!");
+            
+            // Reset
+            document.getElementById("mensaje").value = "";
+            document.getElementById("cliente").value = "";
+            document.getElementById("sena").checked = false;
+            document.getElementById("resultsCard").style.display = "none";
+            document.getElementById("clienteSection").style.display = "none";
+            datosProductos = [];
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+        } catch (err) {
+            console.error(err);
+            showToast("Error de conexión", true);
+        } finally {
+            btn.classList.remove("loading");
+        }
+    }
+    
+    async function actualizarEstadoGlobal() {
+        const estado = document.getElementById("nuevoEstado").value;
+        const btn = document.getElementById("btnActualizar");
+        btn.classList.add("loading");
+        
+        const payload = {
+            action: "actualizar_estado_global",
+            nuevo_estado: estado
+        };
+        
+        try {
+            await fetch(GOOGLE_SHEETS_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            showToast("¡Estado GLOBAL actualizado exitosamente!");
+        } catch (err) {
+            console.error(err);
+            showToast("Error de conexión", true);
+        } finally {
+            btn.classList.remove("loading");
+        }
+    }
+</script>
+
+</body>
+</html>
