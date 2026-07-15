@@ -388,25 +388,57 @@
         // Ordenamos por largo del nombre para evitar que un nombre corto pise a uno largo.
         const sortedDB = [...productsDB].sort((a, b) => b.name.length - a.name.length);
         let productosEncontrados = [];
+        
+        // Helper to normalize strings (remove accents, punctuation, and extra spaces)
+        const normalizeStr = (str) => {
+            return str.toLowerCase()
+                      .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // remove accents
+                      .replace(/[^a-z0-9]/g, "") // keep only letters and numbers
+        };
+        
         let tempMensaje = mensaje.toLowerCase();
         
         for (let p of sortedDB) {
             const pName = p.name.toLowerCase();
-            // Regex to find "Nx ProductName" or just "ProductName"
             const escapedName = pName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            // Check original exact match first
             const regex = new RegExp(`(?:(\\d+)x\\s+)?${escapedName}`, 'gi');
             
             let match;
+            let found = false;
             while ((match = regex.exec(tempMensaje)) !== null) {
-                let qty = 1;
-                if (match[1]) {
-                    qty = parseInt(match[1]);
-                }
+                let qty = match[1] ? parseInt(match[1]) : 1;
                 for (let i = 0; i < qty; i++) {
                     productosEncontrados.push(p);
                 }
+                found = true;
             }
-            tempMensaje = tempMensaje.replace(regex, ""); 
+            if (found) {
+                tempMensaje = tempMensaje.replace(regex, "");
+                continue;
+            }
+
+            // Fallback: Fuzzy matching using normalized strings if exact match fails
+            // WhatsApp Web sometimes introduces invisible characters (\u200e) or weird spacing.
+            const normPName = normalizeStr(pName);
+            const lines = tempMensaje.split('\n');
+            for (let i = 0; i < lines.length; i++) {
+                const normLine = normalizeStr(lines[i]);
+                if (normLine.includes(normPName)) {
+                    // Extract quantity if present at the start of the line (e.g. "1x")
+                    let qty = 1;
+                    const qtyMatch = lines[i].match(/(\d+)x/i);
+                    if (qtyMatch) {
+                        qty = parseInt(qtyMatch[1]);
+                    }
+                    for (let j = 0; j < qty; j++) {
+                        productosEncontrados.push(p);
+                    }
+                    // Remove line to prevent double matching
+                    lines[i] = ""; 
+                }
+            }
+            tempMensaje = lines.join('\n');
         }
 
         if (productosEncontrados.length === 0) {
