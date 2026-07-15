@@ -346,7 +346,7 @@
         }
     }
 
-    fetch('products_db.json')
+    fetch('products_db.json?v=' + Date.now())
         .then(response => response.json())
         .then(data => { productsDB = data; })
         .catch(error => { console.error(error); });
