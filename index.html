@@ -490,7 +490,7 @@
         <h2 class="header-subtitle">BAZAR Y DECO</h2>
         
         <div class="search-bar" style="margin-top: 15px; display: flex; justify-content: center;">
-            <input type="text" id="search-input" placeholder="🔍 Buscar productos..." style="width: 80%; max-width: 400px; padding: 10px 15px; border: 1px solid #ccc; border-radius: 20px; font-family: 'Outfit', sans-serif; font-size: 1rem; color: var(--text-color);" onkeyup="searchProducts()">
+            <input type="text" id="search-input" placeholder="🔍 Buscar productos..." style="width: 80%; max-width: 400px; padding: 10px 15px; border: 1px solid #ccc; border-radius: 20px; font-family: 'Outfit', sans-serif; font-size: 1rem; color: var(--text-color);" oninput="debounceSearch()">
         </div>
         
         <div class="cart-icon" onclick="openCart()">
@@ -64305,17 +64305,27 @@
             document.getElementById('cart-modal').style.display = 'none';
         }
 
+        let searchTimeout = null;
+        function debounceSearch() {
+            if (searchTimeout) clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                searchProducts();
+            }, 300);
+        }
+
         function searchProducts() {
             const query = document.getElementById('search-input').value.toLowerCase();
             const cards = document.querySelectorAll('.product-card');
             
             cards.forEach(card => {
-                const title = card.querySelector('.product-title').innerText.toLowerCase();
-                
-                if (title.includes(query)) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
+                const titleNode = card.querySelector('.product-title');
+                if (titleNode) {
+                    const title = titleNode.textContent.toLowerCase();
+                    if (title.includes(query)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
                 }
             });
         }
