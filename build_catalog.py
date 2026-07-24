@@ -84,6 +84,11 @@ if os.path.exists(excel_path_for_prices):
                 except:
                     pass
         print(f"Loaded {len(catalog_prices)} catalog prices from Excel.")
+        
+        # Save to manual_prices.json so GitHub Actions can use it when running on the cloud
+        with open('manual_prices.json', 'w', encoding='utf-8') as f:
+            json.dump(catalog_prices, f, ensure_ascii=False, indent=2)
+            
     except Exception as e:
         print(f"Warning: Could not load Excel prices: {e}")
 
@@ -1086,10 +1091,10 @@ with open('products_db.json', 'w', encoding='utf-8') as f:
 
 
 import os
-import pandas as pd
 excel_path = r'C:\Users\sebas\Desktop\ANTIGRAVITY\Precios_Manuales.xlsx'
 if os.path.exists(excel_path):
     try:
+        import pandas as pd
         df = pd.read_excel(excel_path)
         
         # Create a dictionary of stock from scraped products

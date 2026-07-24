@@ -37,7 +37,7 @@ def build_print_catalog():
         .page {
             width: 210mm;
             min-height: 297mm;
-            padding: 20mm;
+            padding: 15mm;
             box-sizing: border-box;
             page-break-after: always;
             position: relative;
@@ -54,32 +54,29 @@ def build_print_catalog():
             background: #fbf9f6;
         }
         .cover img {
-            max-width: 300px;
+            max-width: 180px;
             mix-blend-mode: multiply;
             margin-bottom: 20px;
         }
         .cover h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
+            font-size: 3rem;
             margin: 0;
             font-weight: 600;
-            letter-spacing: 3px;
+            letter-spacing: 2px;
             text-transform: uppercase;
-            background: linear-gradient(135deg, #a67b4b, #d8ab76, #e9c996, #a67b4b);
-            background-size: 200% auto;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #a67b4b;
         }
         .cover p {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             margin-top: 10px;
             color: #8b6b55;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             text-transform: uppercase;
         }
         .cover .contact {
-            margin-top: 50px;
-            font-size: 1.2rem;
+            margin-top: 40px;
+            font-size: 0.9rem;
             color: #7a6e69;
         }
         .cover .contact a {
@@ -94,27 +91,24 @@ def build_print_catalog():
         /* Header de las paginas internas */
         .page-header {
             text-align: center;
-            margin-bottom: 15mm;
+            margin-bottom: 8mm;
             border-bottom: 1px solid #e9c996;
-            padding-bottom: 5mm;
+            padding-bottom: 3mm;
         }
         .page-header h2 {
             font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             margin: 0;
             letter-spacing: 1px;
             text-transform: uppercase;
-            background: linear-gradient(135deg, #a67b4b, #d8ab76, #e9c996, #a67b4b);
-            background-size: 200% auto;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #a67b4b;
         }
 
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-auto-rows: minmax(110mm, auto);
-            gap: 15mm;
+            grid-auto-rows: minmax(60mm, auto);
+            gap: 10mm;
         }
         
         .product {
@@ -124,18 +118,20 @@ def build_print_catalog():
             text-align: center;
             background: #fbf9f6;
             border-radius: 12px;
-            padding: 10mm;
+            padding: 8mm;
             box-shadow: 0 4px 15px rgba(139, 107, 85, 0.05);
             border: 1px solid rgba(139, 107, 85, 0.1);
+            break-inside: avoid;
+            page-break-inside: avoid;
         }
         
         .product-img-wrapper {
-            height: 55mm; /* Ajustado para que no se corte */
+            height: 40mm; /* Ajustado para que no se corte */
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 5mm;
+            margin-bottom: 4mm;
         }
         
         .product img {
@@ -147,23 +143,23 @@ def build_print_catalog():
         
         .product-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
+            font-size: 0.95rem;
             font-weight: 600;
-            margin: 0 0 5px 0;
+            margin: 0 0 4px 0;
             line-height: 1.2;
             color: #3b302c;
         }
 
         .product-desc {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: #7a6e69;
-            margin: 0 0 10px 0;
+            margin: 0 0 6px 0;
             line-height: 1.3;
             flex-grow: 1;
         }
         
         .product-price {
-            font-size: 1.3rem;
+            font-size: 1.15rem;
             font-weight: 600;
             color: #8b6b55;
             margin-top: auto;
@@ -172,11 +168,11 @@ def build_print_catalog():
         /* Footer de página */
         .page-footer {
             position: absolute;
-            bottom: 10mm;
+            bottom: 5mm;
             left: 0;
             width: 100%;
             text-align: center;
-            font-size: 0.85rem;
+            font-size: 0.7rem;
             color: #a67b4b;
         }
     </style>
@@ -194,7 +190,7 @@ def build_print_catalog():
     </div>
 """
 
-    items_per_page = 4
+    items_per_page = 8
     total_pages = math.ceil(len(available_products) / items_per_page)
 
     for i in range(total_pages):
