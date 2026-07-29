@@ -1,4 +1,5 @@
 import math
+import re
 import json
 import os
 import urllib.request
@@ -127,13 +128,15 @@ while True:
             if img_el:
                 if img_el.has_attr('data-srcset'):
                     srcset = img_el['data-srcset']
-                    img = srcset.split(',')[0].split(' ')[0]
+                    img = srcset.split(',')[-1].strip().split(' ')[0]
                     if img.startswith('//'):
                         img = 'https:' + img
                 elif img_el.has_attr('src'):
                     img = img_el['src']
                     if img.startswith('//'):
                         img = 'https:' + img
+                if img:
+                    img = re.sub(r'-\d+-\d+(?=\.(webp|jpg|png|jpeg)$)', '-1024-1024', img, flags=re.IGNORECASE)
             
             desc = f'Añade un toque único a tu hogar con {name}. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.'
             
@@ -821,6 +824,11 @@ z-index: 1000;
         <img src="{logo_path}" alt="LUNARIA bazar y deco" class="logo">
         <h1 class="header-title">LUNARIA</h1>
         <p class="header-subtitle">bazar y deco</p>
+        
+        <div class="search-bar" style="margin-top: 15px; display: flex; justify-content: center; width: 100%;">
+            <input type="text" id="search-input" placeholder="🔍 Buscar productos..." style="width: 80%; max-width: 400px; padding: 10px 15px; border: 1px solid #ccc; border-radius: 20px; font-family: 'Outfit', sans-serif; font-size: 1rem; color: var(--text-color);" oninput="debounceSearch()">
+        </div>
+        
         <a href="https://wa.me/5493476355526" target="_blank" class="whatsapp-icon" title="Consultas por WhatsApp">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 26px; height: 26px;">
         </a>
@@ -983,6 +991,31 @@ html_template += '''
 
         function closeCart() {
             document.getElementById('cart-modal').style.display = 'none';
+        }
+
+        let searchTimeout = null;
+        function debounceSearch() {
+            if (searchTimeout) clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                searchProducts();
+            }, 300);
+        }
+
+        function searchProducts() {
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const cards = document.querySelectorAll('.product-card');
+            
+            cards.forEach(card => {
+                const titleNode = card.querySelector('.product-title');
+                if (titleNode) {
+                    const title = titleNode.textContent.toLowerCase();
+                    if (title.includes(query)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                }
+            });
         }
 
         // --- Checkout Logic ---
