@@ -868,7 +868,7 @@ for p in unique_products:
         p_img = p['img']
         p_price = p['price']
         
-        is_agotado = (p.get('stock_msg') == 'Agotado')
+        is_agotado = (str(p.get('stock_msg', '')).lower() in ['agotado', 'sin stock'])
         btn_class = 'btn-buy disabled' if is_agotado else 'btn-buy'
         btn_attr = 'disabled' if is_agotado else ''
         btn_text = 'Agotado' if is_agotado else 'Agregar al carrito'
