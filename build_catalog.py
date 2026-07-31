@@ -352,6 +352,18 @@ def build_menu_html(categories, level=0):
     return html
 
 cat_html = build_menu_html(categories_data)
+def build_top_pills_html(categories):
+    html = '<div class="top-categories-bar">'
+    for i, c in enumerate(categories):
+        all_kws_list = get_all_keywords(c)
+        kws = ",".join(all_kws_list)
+        act = " active" if i == 0 else ""
+        html += f'<button class="cat-pill{act}" onclick="filterProducts(event, \'{kws}\', this)">{c["name"]}</button>'
+    html += '</div>'
+    return html
+
+top_pills_html = build_top_pills_html(categories_data)
+
 
 html_template = f'''<!DOCTYPE html>
 <html lang="es">
@@ -1089,9 +1101,16 @@ html_template += '''
         closeBtn.addEventListener('click', toggleMenu);
         overlay.addEventListener('click', toggleMenu);
 
-        function filterProducts(event, keywordStr) {
-            event.preventDefault();
-            const keywords = keywordStr.toLowerCase().split(',');
+                function filterProducts(event, keywordStr, btnEl) {
+            if (event) event.preventDefault();
+
+            // Resaltar pill activo
+            if (btnEl && btnEl.classList.contains('cat-pill')) {
+                document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+                btnEl.classList.add('active');
+            }
+
+            const keywords = (keywordStr || "").toLowerCase().split(',');
             const cards = document.querySelectorAll('.product-card');
             cards.forEach(card => {
                 const titleStr = card.getAttribute('data-title');
@@ -1102,7 +1121,7 @@ html_template += '''
                 }
                 let show = false;
                 for (let kw of keywords) {
-                    if (title.includes(kw)) {
+                    if (kw && title.includes(kw)) {
                         show = true;
                         break;
                     }
