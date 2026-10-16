@@ -1,5 +1,181 @@
 [
   {
+    "name": "Alfombra Chica (100x150) | Cruda lisa | 2da",
+    "price": "$16.300",
+    "original_price": "$10.798,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20230207_162213-011-b8b1c4afae2ef9932317921515817953-1024-1024.jpeg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Chica (100x150) | Cruda lisa | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-chica-100x150-cruda-lisa-2da-1l95u/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Bella Ciao rayada",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/583c075a-e8fd-46fd-a4ee-d03d33cac3e8-1709d5628b9a67153c17921060043057-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Bella Ciao rayada. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-bella-ciao-rayada-vyvek/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Langosta rayada",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/49a6a543-9c26-4b59-a4a9-a9aa39b27dcd-d8a2ee9a57cf61f11f17921059574926-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Langosta rayada. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-langosta-rayada-fkkbq/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Cangrejo rayada",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ce058c77-95db-4ccd-a99f-00b2355e23bc-fc3a27d1c52aa3a7de17921056839347-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Cangrejo rayada. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-cangrejo-rayada-cs3uf/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Sardina rayada",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/a5a26073-ae35-4e3d-a3ec-8483739b295f-b1e4d5fbaea7093ebf17921057926017-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Sardina rayada. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-sardina-rayada-wmo7v/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Limonata rayada",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/cab09966-518c-4577-8477-b67919ce86f3-5d854b77028bab3c4617921055338461-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Limonata rayada. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-limonata-rayada-1g13h/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Bella Ciao lisa",
+    "price": "$11.200",
+    "original_price": "$7.980,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ebe322ba-ceab-4056-835a-962cb670acd7-5f0b050fcb358bce7217921050819428-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Bella Ciao lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-bella-ciao-lisa-1d4fk/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Cangrejo lisa",
+    "price": "$11.200",
+    "original_price": "$7.980,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/512b888f-8a39-4269-b628-d550897622e9-be3f0676a9bf92c13e17921054218975-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Cangrejo lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-cangrejo-lisa-1emlb/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Langosta lisa",
+    "price": "$11.200",
+    "original_price": "$7.980,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/92dbd674-0128-4e7e-897f-aa7cd7c577bd-eeb8cc28cff2335b3a17921050090041-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Langosta lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-langosta-lisa-1btg8/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Sardina lisa",
+    "price": "$11.200",
+    "original_price": "$7.980,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/76d4e4e2-e89e-44b2-8961-5856341c8008-2741cd82dbf06ca60c17921052230191-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Sardina lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-sardina-lisa-wc8s0/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Limonata lisa",
+    "price": "$11.200",
+    "original_price": "$7.980,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/f1127ac4-0ff8-400f-a036-2a03d7aaf5bc-1d925b5c5d19e1e00217921053268953-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Limonata lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-limonata-lisa-1hav8/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Ramo de flores | Gris plomo | 20L.",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/bf4f55a1-8e1b-4bb9-8ba4-e5a34d93fdb6-6a939f8fc9e7bd4fa617921037349481-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Ramo de flores | Gris plomo | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-ramo-de-flores-gris-plomo-20l-alfpk/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Florero | Gris plomo | 20L.",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/0869923c-7cf6-47bc-8ddf-e94c5b914095-3e550ebcc6b2dc6e1517921034876526-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Florero | Gris plomo | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-florero-gris-plomo-20l-5timt/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Hojas | Gris plomo | 20L.",
+    "price": "$14.000",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/5e6c4ca0-e4c9-4f6e-aa50-7447cde4a053-e6ad24847e73d5ecbc17921031799696-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Hojas | Gris plomo | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-hojas-gris-plomo-20l-1f7nl/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Bomba USB 20L. | Hojas | Gris plomo",
+    "price": "$16.900",
+    "original_price": "$12.500,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/bc65383c-1116-435a-a407-ac5b7c23b980-c0570947b25601994017921032295860-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Bomba USB 20L. | Hojas | Gris plomo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-bomba-usb-20l-hojas-gris-plomo-ze3ve/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Flores | Gris plomo | 12L.",
+    "price": "$13.500",
+    "original_price": "$9.590,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/f9f01391-96e6-4c81-b563-cec7209d6b16-dde7308fd571fc320f17921024460045-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Flores | Gris plomo | 12L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-flores-gris-plomo-12l-bfdr4/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Camino Amelia | Espiga crudo | 2da",
     "price": "$13.000",
     "original_price": "$6.428,00",
@@ -1518,6 +1694,28 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Kit cama 2",
+    "price": "$287.100",
+    "original_price": "$239.250,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/0c924e9d-745a-4730-9768-00fb413002da-76cad633a545e7c56817886421075634-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Kit cama 2. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/kit-cama-2-1npjf/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Kit sillón 3",
+    "price": "$136.600",
+    "original_price": "$113.809,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/cee84958-ca7b-4d36-a919-a76fc58b22e5-e5ddcf7a6781d5af7417886418135921-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Kit sillón 3. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/kit-sillon-3-1smmr/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Almohadón completo con pestaña | Olivia verde palta fondo verde palta | 40x40cm",
     "price": "$25.700",
     "original_price": "$19.694,00",
@@ -2695,6 +2893,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Kit emprendedor 1",
+    "price": "$174.100",
+    "original_price": "$145.048,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e53775f4-23ba-4bba-8a85-23d69baeb124-576ef60fb2bb03fd4f17852892196774-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Kit emprendedor 1. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/kit-emprendedor-1-10i8b/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Kit sillón",
     "price": "$158.500",
     "original_price": "$132.016,00",
@@ -3069,17 +3278,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra 2x1,5 | Gris tres rayas finas blancas",
-    "price": "$23.600",
-    "original_price": "$20.931,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7276-dacda4599b3445676017824029471139-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra 2x1,5 | Gris tres rayas finas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-2x15-gris-tres-rayas-finas-blancas-720jq/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra XL | Franja negra-chocolate",
     "price": "$26.100",
     "original_price": "$24.448,00",
@@ -3087,6 +3285,17 @@
     "desc": "Añade un toque único a tu hogar con Alfombra XL | Franja negra-chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-xl-franja-negra-chocolate-1onfz/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Bomba USB 20L. | Hojas | Arena",
+    "price": "$13.200",
+    "original_price": "$12.500,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/10a0198f-e6f4-45ea-a706-761ffa243642-d1f03dc2220c3de70717823340830294-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Bomba USB 20L. | Hojas | Arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-bomba-usb-20l-hojas-arena-1ymck/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3252,6 +3461,17 @@
     "desc": "Añade un toque único a tu hogar con Porta pañuelos | Hojas verdes. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/porta-panuelos-hojas-verdes-8466y/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Bomba USB 20L. | Hojas | Gris",
+    "price": "$13.200",
+    "original_price": "$12.500,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/bf1fbdaf-991a-47bc-9f92-c2ebad17d17c-41b8f92ee8938bbfff17812815247470-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Bomba USB 20L. | Hojas | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-bomba-usb-20l-hojas-gris-qgh7d/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3780,6 +4000,17 @@
     "desc": "Añade un toque único a tu hogar con COMBO SURTIDO x 5 Alfombras 2x1.5. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/combo-x-5-alfombra-2x1-5-surtidas-1b2bn/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Traba puertas Negro | Carretilla",
+    "price": "$7.200",
+    "original_price": "$6.980,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/5951d83c-2008-4ede-a708-5cc9dc22cf78-9de1ff20040f7835b817773188566520-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Traba puertas Negro | Carretilla. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/traba-puertas-negro-carretilla-qxouy/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -4334,6 +4565,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Funda bidón Agua ♡ | Gris plomo | 12L.",
+    "price": "$12.700",
+    "original_price": "$9.590,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/42809928-4151-486a-848a-aa451da16717-c4b3bc10b8d4351f6d17738632233877-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Agua ♡ | Gris plomo | 12L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-agua-gris-plomo-12l-ym9es/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Necessaire mil rayas beige",
     "price": "$8.000",
     "original_price": "$7.800,00",
@@ -4363,6 +4605,17 @@
     "desc": "Añade un toque único a tu hogar con Porta mate para auto. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/porta-mate-para-auto-17kes/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Cuyo | 60x150cm | Rayas grises",
+    "price": "$21.300",
+    "original_price": "$23.206,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/5b9592da-f1c4-4a10-b8a0-ea20b04113ce-51ad9988da94aa123217733383150930-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x150cm | Rayas grises. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x150cm-rayas-grises-os72y/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -4433,6 +4686,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Alfombra Cuyo | 60x200cm | Rayas grises",
+    "price": "$21.300",
+    "original_price": "$30.941,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/19d92b81-de81-409f-ad08-d34115a154c1-e9dca74f1094d0eec717728164129631-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Rayas grises. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-rayas-grises-1fe5f/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Necessaire Botiquín",
     "price": "$8.000",
     "original_price": "$7.600,00",
@@ -4446,7 +4710,7 @@
   {
     "name": "Funda bidón Hojas | Gris | 20L.",
     "price": "$12.700",
-    "original_price": "$9.995,00",
+    "original_price": "$9.990,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/dac8a15a-de85-4c6c-86fa-8d61c6c02634-1d942a1447dd3f28f617725647428541-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Funda bidón Hojas | Gris | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -4457,7 +4721,7 @@
   {
     "name": "Funda bidón Ramo de flores | Gris | 20L.",
     "price": "$12.700",
-    "original_price": "$9.995,00",
+    "original_price": "$9.990,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/df4e6dcf-3149-4f49-8b18-78e1b1f48ab6-704b99fa4a044910f217725646926810-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Funda bidón Ramo de flores | Gris | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -4620,6 +4884,28 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Funda bidón Hojas | Arena | 20L.",
+    "price": "$12.700",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/85f01427-bdd5-4816-a001-1561acf254e8-c7897807768e8b284017710117384564-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Hojas | Arena | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-hojas-arena-20l-1awqs/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Ramo de flores | Arena | 20L.",
+    "price": "$12.700",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ee7f4f7c-66fb-42bc-aefb-b02d062f4e80-6892de4b3cc005216c17710118035790-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Ramo de flores | Arena | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-ramo-de-flores-arena-20l-lxcem/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Visón | 50x50cm",
     "price": "$8.400",
     "original_price": "$7.986,00",
@@ -4752,13 +5038,13 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Avellana | 50x70cm",
-    "price": "$9.600",
-    "original_price": "$9.074,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ba993346-e3bf-4d12-9f73-523ebb58b34a-73b7b3ba4c6925ce2c17697019008250-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Avellana | 50x70cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Alfombra Cuyo | 120x200cm | con unión peluda",
+    "price": "$33.300",
+    "original_price": "$40.887,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/a99e9fa3-8213-45c2-a7ab-47bd331b14e0-e5075fe885cf03474e17698062216678-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 120x200cm | con unión peluda. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/avellana-50x70cm-1ekak/",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-120x200cm-con-union-peluda-1w69f/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -4919,7 +5205,7 @@
   {
     "name": "Trapito de piso Sonríe | Rayado",
     "price": "$6.100",
-    "original_price": "$4.203,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/22f5e42f-e777-4f98-8a65-de3b9157a291-6c66a09ecb63783f9117689360430143-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Sonríe | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -5082,6 +5368,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Trapito de piso Sonríe | Crudo",
+    "price": "$6.100",
+    "original_price": "$4.200,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/0d186b19-b40a-4107-a08e-69a0295a416b-76d3106aa497b8887917694408466999-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Trapito de piso Sonríe | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-sonrie-crudo-8g0vr/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "2,5m Mantel Olivia grafito",
     "price": "$25.400",
     "original_price": "$28.921,00",
@@ -5155,6 +5452,17 @@
     "desc": "Añade un toque único a tu hogar con Guarda bolsas | Kitchen. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-kitchen-qt3f1/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Bolsa Cookies",
+    "price": "$6.700",
+    "original_price": "$6.380,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/a7e0147f-0a7a-495a-8b39-fb841d8ae115-03b2998a6a7424aaef17690148995129-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Bolsa Cookies. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/bolsa-cookies-o0a4l/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -5401,17 +5709,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Pack Buen Apetito x 2",
-    "price": "$10.300",
-    "original_price": "$12.203,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7198_jpg-f9a8c0125a76eff1ce17635775577727-1024-1024-2b9553cbbb922310d217641681732968-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pack Buen Apetito x 2. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pack-buen-apetito-x-2-xpxy1/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Olivia gris | 50x50cm",
     "price": "$8.800",
     "original_price": "$8.304,00",
@@ -5463,6 +5760,28 @@
     "desc": "Añade un toque único a tu hogar con Contenedor Arbol Navidad Rojo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/contenedor-arbol-navidad-rojo-j6ntl/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Cuyo | 60x200cm | Rayas blancas",
+    "price": "$26.500",
+    "original_price": "$30.941,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_6444-73c515ff5bf935b3f117628054559162-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Rayas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-rayas-blancas/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Cuyo | 60x150cm | Rayas blancas",
+    "price": "$21.300",
+    "original_price": "$23.206,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_6442-6f7b994b580a15772e17628052560671-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x150cm | Rayas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x150cm-rayas-blancas/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -5694,17 +6013,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Gris tres rayas negras. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-gris-tres-rayas-negras/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Alfombra Cuadrada (150x150) | Tres rayas tostado",
-    "price": "$25.600",
-    "original_price": "$19.683,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000302552-560f0393cdca1ec0cc17605713101264-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Tres rayas tostado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-chica-100x150-tres-rayas-tostado/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -6083,6 +6391,28 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Alfombra Cuyo | 60x110cm | Rayas Grises Anchas",
+    "price": "$16.000",
+    "original_price": "$15.470,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3358-a958d728a2776ca9ef17560463007059-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x110cm | Rayas Grises Anchas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x110cm-rayas-grises-anchas/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Cuyo | 60x110cm | Rayas Blancas",
+    "price": "$16.000",
+    "original_price": "$15.470,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3357-94dd2614d18428081217560463739569-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x110cm | Rayas Blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x110cm-rayas-blancas/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Posavasos set x 6 | Combinado yute",
     "price": "$12.100",
     "original_price": "$11.440,00",
@@ -6259,17 +6589,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra Petit (70x150) | Cruda",
-    "price": "$13.700",
-    "original_price": "$10.131,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20230207_162213-011-f75cc46f16dc197bc117544144976522-1024-1024.jpeg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Cruda. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-cruda/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra Petit (70x150) | Gris rayas finas blancas",
     "price": "$13.700",
     "original_price": "$10.131,00",
@@ -6303,20 +6622,9 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra Petit (70x150) | Gris rayas combinadas blancas",
-    "price": "$13.700",
-    "original_price": "$10.131,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000160879-1266085a96920fadde17544139416914-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Gris rayas combinadas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-gris-rayas-combinadas-blancas/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Trapito de piso Bienvenidos a Casa | Gris",
     "price": "$6.100",
-    "original_price": "$4.203,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2628-96cc6569e936b2651a17543583777206-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -6327,7 +6635,7 @@
   {
     "name": "Trapito de piso Bienvenidos a Casa | Rayado",
     "price": "$6.100",
-    "original_price": "$4.203,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2621-df2eb8d08562e7380017543584076247-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -6338,7 +6646,7 @@
   {
     "name": "Trapito de piso Bienvenidos a Casa | Crudo",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2614-436cf47ade0fc8b51417543583446713-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -7007,17 +7315,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Almohadón completo | Rosemary | Visón | 50x25cm",
-    "price": "$14.800",
-    "original_price": "$12.800,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/eb1aaeae-e2e1-4d7c-9e67-cdea2e73f38d-ee93304e118e1ff69f17906067123429-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Rosemary | Visón | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-rosemary-vison-50x25cm/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Home | 50x50cm",
     "price": "$12.400",
     "original_price": "$12.000,00",
@@ -7513,17 +7810,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Pack Breakfast x 2",
-    "price": "$12.400",
-    "original_price": "$12.600,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/captura-de-pantalla-2025-01-31-a-las-12-20-15p-m-011260ef5ad2bab67317383368554310-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pack Breakfast x 2. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pack-breakfast-x-2/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Felpudo liso 75x25",
     "price": "$14.800",
     "original_price": "$13.776,00",
@@ -7553,6 +7839,17 @@
     "desc": "Añade un toque único a tu hogar con Rayas gris | 50x70cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/rayas-gris-50x70cm/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Flores | Arena | 12L.",
+    "price": "$12.700",
+    "original_price": "$9.590,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/eaff8100-5ade-4871-964b-65571930ba36-e58af0327796fffe3217780056274564-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Flores | Arena | 12L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-flores-khaki-12l/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -7685,6 +7982,17 @@
     "desc": "Añade un toque único a tu hogar con Yerbera y Azucarera | Rayas Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/yerbera-y-azucarera-rayas-gris/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Agua ♡ | Arena | 12L.",
+    "price": "$12.700",
+    "original_price": "$9.590,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e6be2f04-c8dc-4b73-bc24-8e57a8cb1c02-7a27b0874ad616772817761050584138-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Agua ♡ | Arena | 12L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-agua-arena-12l/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -7922,11 +8230,22 @@
   {
     "name": "Funda bidón Florero | Gris | 20L.",
     "price": "$12.700",
-    "original_price": "$9.995,00",
+    "original_price": "$9.990,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/2a5e6038-2397-4676-9629-120b77a0e6ea-264ee5d67f80ee5d4f17745689158631-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Funda bidón Florero | Gris | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/funda-bidon-florero-gris-oscuro-20l/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Funda bidón Florero | Arena | 20L.",
+    "price": "$12.700",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/fc6ba98c-6512-4c37-9879-7ebb5d163a74-359dc303f7dd12afbb17745675472373-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Florero | Arena | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-florero-arena-20l/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -7964,9 +8283,20 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Trapito de piso Oh Hello | Crudo",
+    "price": "$6.100",
+    "original_price": "$4.200,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226015-2c88dd46955cc5c96f17324617444682-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Trapito de piso Oh Hello | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-oh-hello-crudo/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Trapito de piso Oh Hello | Gris",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226014-b3a52fe157d339848617324617892216-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Oh Hello | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -7977,7 +8307,7 @@
   {
     "name": "Trapito de piso Oh Hello | Rayado",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20241124_113354-763aefe7f130e2d64d17324618232567-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Oh Hello | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -7988,7 +8318,7 @@
   {
     "name": "Trapito de piso Home Sweet Home | Gris",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226036-b425bd0da77b38132217324622200896-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Home Sweet Home | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -7999,7 +8329,7 @@
   {
     "name": "Trapito de piso Home Sweet Home | Crudo",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226037-56a6aaac892e859eee17324621992084-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Home Sweet Home | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8010,7 +8340,7 @@
   {
     "name": "Trapito de piso Home Sweet Home | Rayado",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20241124_114407-1e4ddcd2bd649a5ba917324621767887-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Home Sweet Home | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8021,7 +8351,7 @@
   {
     "name": "Trapito de piso Presente | Rayado",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226016-7de60838419c451ca417324607851962-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Presente | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8032,7 +8362,7 @@
   {
     "name": "Trapito de piso Presente | Gris",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226017-de74df900894dbbdd917324608983521-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Presente | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8043,7 +8373,7 @@
   {
     "name": "Trapito de piso Presente | Crudo",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226018-134d525d89421f188217324610849663-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Presente | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8054,7 +8384,7 @@
   {
     "name": "Trapito de piso Bathroom | Crudo",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226035-f342dc64881b4bf96f17324614958432-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Bathroom | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8065,7 +8395,7 @@
   {
     "name": "Trapito de piso Bathroom | Gris",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226034-6a8b9da8c4b3c1d3cb17324615500805-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Bathroom | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8076,7 +8406,7 @@
   {
     "name": "Trapito de piso Bathroom | Rayado",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226056-4d5f716a7d1507e41417324614377739-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Bathroom | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8087,7 +8417,7 @@
   {
     "name": "Trapito de piso Más amor por favor | Rayado",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img-20241029-wa00401-07b0b478770c52b77917321428143773-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Más amor por favor | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8098,7 +8428,7 @@
   {
     "name": "Trapito de piso Más amor por favor | Gris",
     "price": "$6.100",
-    "original_price": "$4.483,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20241124_113659-3103cb3bc556a7aba917324612014861-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Más amor por favor | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8109,7 +8439,7 @@
   {
     "name": "Trapito de piso Más amor por favor | Crudo",
     "price": "$6.100",
-    "original_price": "$4.203,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20241124_113633-7b2829bb482022f2f717324612290127-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Más amor por favor | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8120,7 +8450,7 @@
   {
     "name": "Trapito de piso Hogar dulce hogar | Crudo",
     "price": "$6.100",
-    "original_price": "$4.203,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226031-064ff83f537fc6eb7217324606640286-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Hogar dulce hogar | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8131,7 +8461,7 @@
   {
     "name": "Trapito de piso Hogar dulce hogar | Rayado",
     "price": "$6.100",
-    "original_price": "$4.203,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000226032-481a4115ea0ba2960b17324606920979-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Hogar dulce hogar | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8142,7 +8472,7 @@
   {
     "name": "Trapito de piso Hogar dulce hogar | Gris",
     "price": "$6.100",
-    "original_price": "$4.203,00",
+    "original_price": "$4.200,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20241124_113806-62984b868feb67c1fb17324604940589-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Trapito de piso Hogar dulce hogar | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -8272,6 +8602,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Alfombra Cuyo | 60x150cm | Lisa",
+    "price": "$19.000",
+    "original_price": "$19.891,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/screenshot_20240104_191844_gallery-a48f8e77e9f461b0a417304121958285-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x150cm | Lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x150cm-lisa/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "2m Mantel blanco",
     "price": "$21.500",
     "original_price": "$23.141,00",
@@ -8378,17 +8719,6 @@
     "desc": "Añade un toque único a tu hogar con 3m Mantel gris medio rayas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/3m-mantel-gris-medio-rayas-blancas/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Porta cubiertos set x 4 | Crudo",
-    "price": "$8.400",
-    "original_price": "$9.000,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/captura-de-pantalla-2024-10-09-a-las-10-13-55a-m-37087b89d37bd4f32817284796886314-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Porta cubiertos set x 4 | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/porta-cubiertos-set-x-4-crudo-efcc7/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -8657,6 +8987,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Alfombra Cuyo | 60x200cm | Lisa",
+    "price": "$23.500",
+    "original_price": "$26.521,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000101915-01-2c76f81e463ea566b417144213506282-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-lisa/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Manta corderito gris perla",
     "price": "$31.300",
     "original_price": "$34.368,00",
@@ -8752,6 +9093,17 @@
     "desc": "Añade un toque único a tu hogar con Camino de gasa verde seco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/camino-de-gasa-verde-seco/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Cuyo | 60x110cm | Lisa",
+    "price": "$14.500",
+    "original_price": "$13.260,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/screenshot_20240104_191844_gallery-fa9330d41d709d780617044067686426-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x110cm | Lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x110cm-lisa/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -9592,28 +9944,6 @@
     "catalog_stock": 0
   },
   {
-    "name": "Funda bidón Flores | Visón | 12L. | 2da",
-    "price": "$10.500",
-    "original_price": "$7.462,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/90816531-9b46-4707-a5a4-65df002b8e0a-7e29884c5b866bbbd217908624341306-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Funda bidón Flores | Visón | 12L. | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-flores-vison-12l-2da-nz76o/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Funda bidón Agua ♡ | Arena | 12L. | 2da",
-    "price": "$10.500",
-    "original_price": "$7.462,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e6be2f04-c8dc-4b73-bc24-8e57a8cb1c02-cca6fced0f0ea0a18317908620165899-1024-1024.png",
-    "desc": "Añade un toque único a tu hogar con Funda bidón Agua ♡ | Arena | 12L. | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-agua-arena-12l-2da-svl03/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
     "name": "2m Mantel Full Color | Chocolate y rosa",
     "price": "$46.300",
     "original_price": "$38.518,00",
@@ -9720,28 +10050,6 @@
     "desc": "Añade un toque único a tu hogar con 3m Mantel mil rayas gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/3m-mantel-mil-rayas-gris-1wzxk/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Kit cama 2",
-    "price": "$287.100",
-    "original_price": "$239.250,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/0c924e9d-745a-4730-9768-00fb413002da-76cad633a545e7c56817886421075634-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Kit cama 2. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/kit-cama-2-1npjf/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Kit sillón 3",
-    "price": "$136.600",
-    "original_price": "$113.809,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/cee84958-ca7b-4d36-a919-a76fc58b22e5-e5ddcf7a6781d5af7417886418135921-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Kit sillón 3. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/kit-sillon-3-1smmr/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10043,17 +10351,6 @@
     "catalog_stock": 0
   },
   {
-    "name": "Kit emprendedor 1",
-    "price": "$174.100",
-    "original_price": "$145.048,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e53775f4-23ba-4bba-8a85-23d69baeb124-576ef60fb2bb03fd4f17852892196774-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Kit emprendedor 1. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/kit-emprendedor-1-10i8b/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
     "name": "Kit mesa",
     "price": "$76.900",
     "original_price": "$64.019,00",
@@ -10182,6 +10479,17 @@
     "desc": "Añade un toque único a tu hogar con Almohadón completo | Raya ancha verde | 40x40cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/almohadon-completo-raya-ancha-verde-40x40cm-hqxji/",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Alfombra 2x1,5 | Gris tres rayas finas blancas",
+    "price": "$23.600",
+    "original_price": "$20.931,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7276-dacda4599b3445676017824029471139-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra 2x1,5 | Gris tres rayas finas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-2x15-gris-tres-rayas-finas-blancas-720jq/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10362,17 +10670,6 @@
     "catalog_stock": 0
   },
   {
-    "name": "Alfombra Cuyo | 60x150cm | Rayas grises",
-    "price": "$21.300",
-    "original_price": "$23.206,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/5b9592da-f1c4-4a10-b8a0-ea20b04113ce-51ad9988da94aa123217733383150930-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x150cm | Rayas grises. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x150cm-rayas-grises-os72y/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
     "name": "2m Mantel con Volados | Rosa",
     "price": "$30.700",
     "original_price": "$30.664,00",
@@ -10413,39 +10710,6 @@
     "desc": "Añade un toque único a tu hogar con Almohadón completo | Hello | Rosa | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/almohadon-completo-hello-rosa-50x25cm-wrlal/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Alfombra Cuyo | 60x200cm | Rayas grises",
-    "price": "$21.300",
-    "original_price": "$30.941,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/19d92b81-de81-409f-ad08-d34115a154c1-e9dca74f1094d0eec717728164129631-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Rayas grises. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-rayas-grises-1fe5f/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Alfombra Cuyo | 60x200cm | Nube",
-    "price": "$23.500",
-    "original_price": "$26.521,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/9175fb01-56ba-4e21-bd75-f580b71d38d5-e0e92da5b71ef4fef217727387559497-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Nube. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-nube-zjmyi/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Alfombra Cuyo | 60x150cm | Nube",
-    "price": "$19.000",
-    "original_price": "$19.891,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/76040068-1fe6-4f01-b415-189c1213c336-272c71b75b45b8715417727385511061-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x150cm | Nube. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x150cm-nube-sythj/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10516,17 +10780,6 @@
     "catalog_stock": 0
   },
   {
-    "name": "Alfombra Cuyo | 60x110cm | Nube",
-    "price": "$14.500",
-    "original_price": "$13.260,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/f758370d-c8e5-4015-b164-f7abb0466dca-1804709f18bb9e684017708308892582-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x110cm | Nube. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x110cm-nube-i39yb/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
     "name": "Camino de gasa con Volados | Blanco",
     "price": "$18.400",
     "original_price": "$12.920,00",
@@ -10593,13 +10846,13 @@
     "catalog_stock": 0
   },
   {
-    "name": "Alfombra Cuyo | 120x200cm | con unión peluda",
-    "price": "$33.300",
-    "original_price": "$40.887,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/a99e9fa3-8213-45c2-a7ab-47bd331b14e0-e5075fe885cf03474e17698062216678-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 120x200cm | con unión peluda. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Avellana | 50x70cm",
+    "price": "$9.600",
+    "original_price": "$9.074,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ba993346-e3bf-4d12-9f73-523ebb58b34a-73b7b3ba4c6925ce2c17697019008250-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Avellana | 50x70cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-120x200cm-con-union-peluda-1w69f/",
+    "link": "https://www.wearehome.com.ar/productos/avellana-50x70cm-1ekak/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10703,6 +10956,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Pack Buen Apetito x 2",
+    "price": "$10.300",
+    "original_price": "$12.203,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7198_jpg-f9a8c0125a76eff1ce17635775577727-1024-1024-2b9553cbbb922310d217641681732968-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Pack Buen Apetito x 2. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/pack-buen-apetito-x-2-xpxy1/",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Necessaire hojas grandes visón",
     "price": "$11.000",
     "original_price": "$7.800,00",
@@ -10710,17 +10974,6 @@
     "desc": "Añade un toque único a tu hogar con Necessaire hojas grandes visón. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/necessaire-hojas-vison-1dydf/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Alfombra Cuyo | 60x150cm | Rayas blancas",
-    "price": "$21.300",
-    "original_price": "$23.206,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_6442-6f7b994b580a15772e17628052560671-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x150cm | Rayas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x150cm-rayas-blancas/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10743,6 +10996,17 @@
     "desc": "Añade un toque único a tu hogar con Mantel matero | Cuadros grandes. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/mantel-matero-cuadros-grandes/",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Alfombra Cuadrada (150x150) | Tres rayas tostado",
+    "price": "$25.600",
+    "original_price": "$19.683,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000302552-560f0393cdca1ec0cc17605713101264-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Tres rayas tostado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-chica-100x150-tres-rayas-tostado/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10780,28 +11044,6 @@
     "catalog_stock": 0
   },
   {
-    "name": "Alfombra Cuyo | 60x110cm | Rayas Grises Anchas",
-    "price": "$16.000",
-    "original_price": "$15.470,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3358-a958d728a2776ca9ef17560463007059-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x110cm | Rayas Grises Anchas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x110cm-rayas-grises-anchas/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Alfombra Cuyo | 60x110cm | Rayas Blancas",
-    "price": "$16.000",
-    "original_price": "$15.470,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3357-94dd2614d18428081217560463739569-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x110cm | Rayas Blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x110cm-rayas-blancas/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
     "name": "Pack Little Things x 2",
     "price": "$11.000",
     "original_price": "$12.203,00",
@@ -10820,6 +11062,28 @@
     "desc": "Añade un toque único a tu hogar con Almohadón completo con pestaña | Raya nude | 40x40cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/almohadon-completo-con-pestana-raya-beige-40x40cm/",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Alfombra Petit (70x150) | Cruda",
+    "price": "$13.700",
+    "original_price": "$10.131,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20230207_162213-011-f75cc46f16dc197bc117544144976522-1024-1024.jpeg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Cruda. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-cruda/",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Alfombra Petit (70x150) | Gris rayas combinadas blancas",
+    "price": "$13.700",
+    "original_price": "$10.131,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000160879-1266085a96920fadde17544139416914-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Gris rayas combinadas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-gris-rayas-combinadas-blancas/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10864,6 +11128,17 @@
     "desc": "Añade un toque único a tu hogar con Almohadón completo | Un día a la vez | Arena | 40x40cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/almohadon-completo-un-dia-a-la-vez-arena-40x40cm/",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Almohadón completo | Rosemary | Visón | 50x25cm",
+    "price": "$14.800",
+    "original_price": "$12.800,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/eb1aaeae-e2e1-4d7c-9e67-cdea2e73f38d-ee93304e118e1ff69f17906067123429-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo | Rosemary | Visón | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-rosemary-vison-50x25cm/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10919,6 +11194,17 @@
     "desc": "Añade un toque único a tu hogar con Camino Alelí | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/camino-aleli-crudo/",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Pack Breakfast x 2",
+    "price": "$12.400",
+    "original_price": "$12.600,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/captura-de-pantalla-2025-01-31-a-las-12-20-15p-m-011260ef5ad2bab67317383368554310-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Pack Breakfast x 2. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/pack-breakfast-x-2/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -11033,17 +11319,6 @@
     "catalog_stock": 0
   },
   {
-    "name": "Alfombra Cuyo | 60x150cm | Lisa",
-    "price": "$19.000",
-    "original_price": "$19.891,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/screenshot_20240104_191844_gallery-a48f8e77e9f461b0a417304121958285-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x150cm | Lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x150cm-lisa/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
     "name": "Camino de gasa terracota",
     "price": "$14.300",
     "original_price": "$9.802,00",
@@ -11077,17 +11352,6 @@
     "catalog_stock": 0
   },
   {
-    "name": "Alfombra Cuyo | 60x200cm | Rayas Negras",
-    "price": "$26.500",
-    "original_price": "$30.941,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000195393-588f347a132fd0108c17292030332512-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Rayas Negras. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-rayas-negras/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
     "name": "2m Mantel gris medio con rayas blancas",
     "price": "$21.500",
     "original_price": "$21.694,00",
@@ -11099,24 +11363,13 @@
     "catalog_stock": 0
   },
   {
-    "name": "Alfombra Cuyo | 60x200cm | Lisa",
-    "price": "$23.500",
-    "original_price": "$26.521,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000101915-01-2c76f81e463ea566b417144213506282-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Porta cubiertos set x 4 | Crudo",
+    "price": "$8.400",
+    "original_price": "$9.000,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/captura-de-pantalla-2024-10-09-a-las-10-13-55a-m-37087b89d37bd4f32817284796886314-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta cubiertos set x 4 | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-lisa/",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Alfombra Cuyo | 60x110cm | Lisa",
-    "price": "$14.500",
-    "original_price": "$13.260,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/screenshot_20240104_191844_gallery-fa9330d41d709d780617044067686426-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x110cm | Lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x110cm-lisa/",
+    "link": "https://www.wearehome.com.ar/productos/porta-cubiertos-set-x-4-crudo-efcc7/",
     "actual_stock": 0,
     "catalog_stock": 0
   },
