@@ -44,17 +44,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Tote bag Capri | Bella Ciao lisa | 2da",
-    "price": "$9.300",
-    "original_price": "$6.623,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ebe322ba-ceab-4056-835a-962cb670acd7-6faa9e22ac44110a2b17926814131645-1024-1024.png",
-    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Bella Ciao lisa | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-bella-ciao-lisa-2da-1j6ex/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "2m Mantel Full Color | Chocolate y rosa | 2da",
     "price": "$38.400",
     "original_price": "$31.970,00",
@@ -139,28 +128,6 @@
     "desc": "Añade un toque único a tu hogar con Bolsa Capri + Lona | Cangrejo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/bolsa-capri-lona-cangrejo-18gqa/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Bolsa Capri + Lona | Ciao Bella",
-    "price": "$39.400",
-    "original_price": "$32.822,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/7e276fa9-1f05-4671-9ac2-b34c82178642-3cbfecf33e1182c99a17924186151169-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Bolsa Capri + Lona | Ciao Bella. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/bolsa-capri-lona-ciao-bella-1d73q/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Bolsa Capri + Lona | Limonata",
-    "price": "$39.400",
-    "original_price": "$32.822,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/c827d589-9a74-409a-84ae-160940831b74-b7c5332cbc82c6430317924186545161-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Bolsa Capri + Lona | Limonata. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/bolsa-capri-lona-limonata-qifxq/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -385,17 +352,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Paño cocina Rayas beige | 2da",
-    "price": "$4.900",
-    "original_price": "$2.390,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_1223-4cfc827fb8bd24098d17919033855407-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Paño cocina Rayas beige | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pano-cocina-rayas-beige-2da-1n07e/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "2m Mantel Full Color | Bordo y rosa",
     "price": "$46.300",
     "original_price": "$38.518,00",
@@ -469,17 +425,6 @@
     "desc": "Añade un toque único a tu hogar con Camino Greta | Corto | Beige. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/camino-greta-corto-beige-1305t/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Camino Greta | Corto | Tostado",
-    "price": "$14.600",
-    "original_price": "$7.505,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e171dc8f-e62f-480d-a197-82065efb1132-090bb1181c0bbbc3f017915774306551-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino Greta | Corto | Tostado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-greta-corto-tostado-67rra/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -568,6 +513,17 @@
     "desc": "Añade un toque único a tu hogar con Camino estampa y flecos | Verde - sol. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/camino-estampa-y-flecos-verde-sol-1meig/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Camino estampa y flecos | Chocolate - sol",
+    "price": "$20.500",
+    "original_price": "$12.200,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6ed9e059-4f25-4565-9bc8-4b9eb9addf80-e540812cd7e581a9e017911528900757-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Camino estampa y flecos | Chocolate - sol. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/camino-estampa-y-flecos-chocolate-sol-1sxm5/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -968,17 +924,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Trapito de piso Bath gris con blanco | 2da",
-    "price": "$4.900",
-    "original_price": "$3.440,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/screenshot_20230930_222254_gallery-e0f27a4c07905ef65f169612349447611-aa9e403734cad5167a17901756759019-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Trapito de piso Bath gris con blanco | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-bath-gris-con-blanco-2da-2bgf6/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra Cloud redonda 60cm | 2da",
     "price": "$16.900",
     "original_price": "$11.365,00",
@@ -1140,17 +1085,6 @@
     "desc": "Añade un toque único a tu hogar con Almohadón para silla | Nube | Mostaza. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/almohadon-para-silla-nube-mostaza-16pj8/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Individual Volados Laterales Rosa",
-    "price": "$8.500",
-    "original_price": "$6.032,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/f12dde18-562c-4097-9702-ea7c7d8eb64d-78790b52a1b618ae6717897675089131-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Individual Volados Laterales Rosa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/individual-volados-laterales-rosa-6w0uj/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1474,17 +1408,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Kit sillón 3",
-    "price": "$136.600",
-    "original_price": "$113.809,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/cee84958-ca7b-4d36-a919-a76fc58b22e5-e5ddcf7a6781d5af7417886418135921-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Kit sillón 3. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/kit-sillon-3-1smmr/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Almohadón completo con pestaña | Olivia verde palta fondo verde palta | 40x40cm",
     "price": "$25.700",
     "original_price": "$19.694,00",
@@ -1782,17 +1705,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Pie de cama Tusor con Volado lateral | Crudo",
-    "price": "$37.200",
-    "original_price": "$30.982,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ac707461-1083-45c3-8a45-08e8b0ed9d4d-83e0a735dec40f0e1b17878670968495-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pie de cama Tusor con Volado lateral | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pie-de-cama-tusor-con-volado-lateral-crudo-y46x7/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Pillow Mil rayas grafito",
     "price": "$50.400",
     "original_price": "$41.976,00",
@@ -2031,17 +1943,6 @@
     "desc": "Añade un toque único a tu hogar con 2,5m Mantel cuatro rayas grafito | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/25m-mantel-cuatro-rayas-grafito-2da-1gqxb/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Pillow Blanco liso",
-    "price": "$41.900",
-    "original_price": "$34.860,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_8776-c4c549eb4e4bf611b017862320838167-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pillow Blanco liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pillow-blanco-liso-11c1u/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -2398,17 +2299,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra india Jima 45x60",
-    "price": "$24.600",
-    "original_price": "$18.855,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ef324b37-4b80-4b9a-863f-8436531cf16a-79f31fe7c747b8fb6217857936934640-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra india Jima 45x60. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-india-jima-45x60-17831/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Almohadón completo | Raya fina celeste | 40x40cm",
     "price": "$20.600",
     "original_price": "$15.253,00",
@@ -2460,6 +2350,17 @@
     "desc": "Añade un toque único a tu hogar con Kit emprendedor 6. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/kit-emprendedor-6-168ut/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Kit emprendedor 5",
+    "price": "$53.200",
+    "original_price": "$44.324,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/cbcce8dd-e94c-421a-adeb-0e99058e6326-b8fc257491339eb49617852943545852-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Kit emprendedor 5. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/kit-emprendedor-5-1eic8/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -2537,17 +2438,6 @@
     "desc": "Añade un toque único a tu hogar con 2,5m Mantel rayas gris fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/25m-mantel-rayas-gris-fondo-crudo-16f2p/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "2,5m Mantel tres rayas grafito fondo crudo",
-    "price": "$34.800",
-    "original_price": "$28.921,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/b0e667ca-26d2-416a-b93f-d1f33fa96e2b-ec95d65c208bbe106417878718262112-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con 2,5m Mantel tres rayas grafito fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/25m-mantel-tres-rayas-grafito-fondo-crudo-1jy0o/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -2779,17 +2669,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra baño Rectangular a Rayas | Natural. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-bano-rectangular-a-rayas-natural-1fhzy/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Alfombra XL | Franja negra-chocolate",
-    "price": "$26.100",
-    "original_price": "$24.448,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/923cdd13-487f-47e4-b332-36dcdfdba6ee-0b7232221f30e28c8d17824008581346-1024-1024.png",
-    "desc": "Añade un toque único a tu hogar con Alfombra XL | Franja negra-chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-xl-franja-negra-chocolate-1onfz/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3054,17 +2933,6 @@
     "desc": "Añade un toque único a tu hogar con Chocolate | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/chocolate-50x50cm-1js8c/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "2m Mantel mil rayas visón",
-    "price": "$21.500",
-    "original_price": "$23.141,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/68baebca-9b8a-4525-929e-1d202784b45a-dd3270b169448edd2717803273162743-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con 2m Mantel mil rayas visón. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/2m-mantel-mil-rayas-vison-149xf/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3696,17 +3564,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Pie de cama Tusor | Olivia arena",
-    "price": "$31.900",
-    "original_price": "$26.577,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/0fd4afd3-7102-403e-aae3-4543d1cc293b-9ce4375c0b05e1bed217746362975934-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pie de cama Tusor | Olivia arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pie-de-cama-tusor-rayado-arena-tianb/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Pie de cama Tusor | Olivia terracota",
     "price": "$31.900",
     "original_price": "$26.577,00",
@@ -3714,17 +3571,6 @@
     "desc": "Añade un toque único a tu hogar con Pie de cama Tusor | Olivia terracota. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/pie-de-cama-tusor-rayado-terracota-1loma/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Pie de cama Tusor | Gris medio",
-    "price": "$21.700",
-    "original_price": "$23.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/180631c7-0dde-4f7d-9dac-117a11bb9d2b-04ff3cb0c00627a11917745803445077-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pie de cama Tusor | Gris medio. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pie-de-cama-tusor-gris-medio-sd4sc/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3982,6 +3828,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Funda bidón Hojas | Gris | 20L.",
+    "price": "$12.700",
+    "original_price": "$9.990,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/dac8a15a-de85-4c6c-86fa-8d61c6c02634-1d942a1447dd3f28f617725647428541-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Funda bidón Hojas | Gris | 20L.. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/funda-bidon-hojas-gris-20l-1126s/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Funda bidón Ramo de flores | Gris | 20L.",
     "price": "$12.700",
     "original_price": "$9.990,00",
@@ -4187,17 +4044,6 @@
     "desc": "Añade un toque único a tu hogar con Cortina lazos Tusor | Blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/cortina-lazos-tusor-blanco-lk6na/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Pie de cama Tusor | Crudo",
-    "price": "$21.700",
-    "original_price": "$23.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/28fbc332-19e1-4c34-89e9-4327d5433392-99d96aeb22f046373d17704126983935-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pie de cama Tusor | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pie-de-cama-tusor-crudo-1iwju/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -5170,17 +5016,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "2m Mantel Olivia gris",
-    "price": "$21.500",
-    "original_price": "$23.141,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_9536-a80dd5e7fe4628590117883594698991-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con 2m Mantel Olivia gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/2m-mantel-olivia-gris/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Mantel matero | Gris raya blanca",
     "price": "$9.000",
     "original_price": "$6.779,00",
@@ -5775,17 +5610,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Trapito de piso Bienvenidos a Casa | Rayado",
-    "price": "$6.100",
-    "original_price": "$4.200,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2621-df2eb8d08562e7380017543584076247-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Trapito de piso Bienvenidos a Casa | Rayado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/trapito-de-piso-bienvenidos-a-casa-rayado/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Trapito de piso Bienvenidos a Casa | Crudo",
     "price": "$6.100",
     "original_price": "$4.200,00",
@@ -6039,17 +5863,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Camino Amelia | Chocolate",
-    "price": "$11.200",
-    "original_price": "$7.745,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_1453-27ac076736d7e0ed8c17511387733835-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino Amelia | Chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-amelia-chocolate/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Manta Cafayate | Tostado",
     "price": "$49.200",
     "original_price": "$40.972,00",
@@ -6255,6 +6068,17 @@
     "desc": "Añade un toque único a tu hogar con Pack paños Chef x 2. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/pack-panos-chef-x-2/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Individual circular Petra",
+    "price": "$8.500",
+    "original_price": "$8.093,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/99623340-6b5f-4686-84a8-47acffb0f219-3c9f4b8ed73aed65a417690108221588-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Individual circular Petra. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/individual-circular-petra/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -6666,28 +6490,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Camino Tilcara | Gris con tres rayas blancas",
-    "price": "$13.900",
-    "original_price": "$11.800,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/captura-de-pantalla-2025-03-13-a-las-5-41-58p-m-e98370190396ea251817418985571193-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino Tilcara | Gris con tres rayas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-tilcara-gris-con-tres-rayas-blancas/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Camino Tilcara | Multirayas gris",
-    "price": "$13.900",
-    "original_price": "$11.800,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/captura-de-pantalla-2025-03-13-a-las-5-40-54p-m-d371cc280f8dd09b6d17418984741563-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino Tilcara | Multirayas gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-tilcara-multirayas-gris/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Bolsa de tela | Gris perla",
     "price": "$8.800",
     "original_price": "$8.364,00",
@@ -6860,17 +6662,6 @@
     "desc": "Añade un toque único a tu hogar con Cortina lazos | Verde seco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/cortina-lazos-verde-seco/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Camino de gasa verde oscuro",
-    "price": "$14.300",
-    "original_price": "$9.802,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000271788-d155dc7ab8f1410b1417385310550083-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino de gasa verde oscuro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-de-gasa-verde-oscuro/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -8129,17 +7920,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Camino de gasa blanco",
-    "price": "$14.300",
-    "original_price": "$9.802,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000080283-18d93a71df8dfc01c617074453443950-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino de gasa blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-de-gasa-blanco/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Camino de gasa gris oscuro",
     "price": "$14.300",
     "original_price": "$9.802,00",
@@ -8532,17 +8312,6 @@
     "desc": "Añade un toque único a tu hogar con Gris perla rayas blancas | 50x70cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/gris-perla-rayas-blancas-50x70cm/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Camino de gasa arena",
-    "price": "$14.300",
-    "original_price": "$9.802,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20230811_131002-011-7387cbb0b18f70060116917718707634-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino de gasa arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-de-mesa-cemento/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
