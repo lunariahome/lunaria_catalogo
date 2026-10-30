@@ -1,5 +1,16 @@
 [
   {
+    "name": "Bordo | 50x50cm",
+    "price": "$11.200",
+    "original_price": "$7.986,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/5cfb52f5-31a6-475f-bdfd-a2ae16f47eea-3b60763251881bb8ff17933711225789-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Bordo | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/bordo-50x50cm-qp5u8/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Kit cama gris perla",
     "price": "$148.000",
     "original_price": "$123.292,00",
@@ -418,6 +429,39 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Juego cortinas Voile | Off white",
+    "price": "$30.200",
+    "original_price": "$24.150,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1ca4c72a-010f-4364-a42e-b2e22f800dfe-7fe3afa354270f279517915774032067-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Juego cortinas Voile | Off white. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/juego-cortinas-voile-off-white-cdfs3/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Juego cortinas Voile | Nude oscuro",
+    "price": "$30.200",
+    "original_price": "$24.150,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/7825259e-9158-46ab-b20d-78bec6620e8b-ea938b2c75e596c4c317915773778887-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Juego cortinas Voile | Nude oscuro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/juego-cortinas-voile-canela-gsr58/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Juego cortinas Voile | Nude claro",
+    "price": "$30.200",
+    "original_price": "$24.150,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/23234f32-277b-48a5-95bc-6708d43b6ad9-ff90b0bad27082abc317915773300602-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Juego cortinas Voile | Nude claro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/juego-cortinas-voile-crudo-54ujx/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Almohadón completo pestaña Fina | Azul lavanda | 40x40cm",
     "price": "$18.700",
     "original_price": "$13.800,00",
@@ -513,17 +557,6 @@
     "desc": "Añade un toque único a tu hogar con Contenedor Pan baguette | Chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/contenedor-pan-baguette-chocolate-5zk12/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Sobre Contenedor Broches | El arte de ordenar | Verde seco",
-    "price": "$10.300",
-    "original_price": "$7.300,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/241fa98b-6c35-4608-b2d6-789bf40d6f79-fb86fa2072dc9cfbdf17909675358833-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Sobre Contenedor Broches | El arte de ordenar | Verde seco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/sobre-contenedor-broches-el-arte-de-ordenar-verde-seco-1c95c/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1562,6 +1595,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Cortina Tusor con ojales metálicos | Raya gris perla",
+    "price": "$32.600",
+    "original_price": "$27.110,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/51df2ab4-b8bb-48c9-b46e-aa418f01b549-1b0c0507520f7808aa17878677726704-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Cortina Tusor con ojales metálicos | Raya gris perla. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/cortina-tusor-con-ojales-metalicos-raya-gris-perla-19q1c/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Raya ancha visón | 50x50cm",
     "price": "$9.500",
     "original_price": "$6.785,00",
@@ -1580,6 +1624,17 @@
     "desc": "Añade un toque único a tu hogar con Pillow Mil rayas grafito. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/pillow-mil-rayas-grafito-n0sh3/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Canela | 50x50cm",
+    "price": "$7.000",
+    "original_price": "$6.785,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/be6e2a93-7dc3-41bd-af00-1171cd360a2a-1bc8bc95fffa80652a17877723896449-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Canela | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/canela-50x50cm-w8fqn/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1760,17 +1815,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Manta corderito Soft Panal | Tostado",
-    "price": "$43.600",
-    "original_price": "$36.302,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e1af203f-407d-447c-ae29-ac60501d2207-f417b49e7c5e1ac7d617862071984772-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Manta corderito Soft Panal | Tostado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/manta-corderito-soft-panal-tostado-10zbr/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Manta corderito Soft Panal | Gris",
     "price": "$43.600",
     "original_price": "$36.302,00",
@@ -1833,6 +1877,17 @@
     "desc": "Añade un toque único a tu hogar con Gris plomo | 50x70cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/gris-plomo-50x70cm-1qsr4/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Rosa con flecos | 50x50cm",
+    "price": "$13.100",
+    "original_price": "$9.341,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/39edd558-48f6-4e54-94fb-dd92e7a95a57-f3f67da7f58022f03d17861216923976-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Rosa con flecos | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/rosa-con-flecos-50x50cm-1c2qd/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -2196,6 +2251,17 @@
     "desc": "Añade un toque único a tu hogar con Kit emprendedor 1. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/kit-emprendedor-1-10i8b/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Arena con flecos | 50x50cm",
+    "price": "$13.100",
+    "original_price": "$9.341,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6bb62a8a-edc4-4578-9bcb-55f79cf106ff-472c1ddff46951e8d217842301921967-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Arena con flecos | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/arena-con-flecos-50x50cm-1pg37/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3993,6 +4059,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Necessaire Playa | Gris",
+    "price": "$8.000",
+    "original_price": "$6.965,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/03d78459-5a3c-444f-88fa-c82a3588ab3b-c0bede2cca43ed15c817691074601390-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Necessaire Playa | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/necessaire-playa-gris-pintd/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Trapito de piso Sonríe | Rayado",
     "price": "$6.100",
     "original_price": "$4.200,00",
@@ -4473,17 +4550,6 @@
     "desc": "Añade un toque único a tu hogar con Porta Servilletas Natural x 4. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/porta-servilletas-natural-x-4-414zu/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Porta Servilletas Yute x 4",
-    "price": "$10.500",
-    "original_price": "$10.001,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7004-2e0a764c99056184a317642714423508-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Porta Servilletas Yute x 4. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/porta-servilletas-yute-x-4-1enas/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -6358,17 +6424,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Individual Yute redondo 30cm⌀",
-    "price": "$7.800",
-    "original_price": "$7.590,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e044f66e-9312-40a0-bf2f-9790ec56af3d-414d1851b8d5bed3a117774100953907-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Individual Yute redondo 30cm⌀. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/individual-yute-redondo-30cm/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Cortina lazos | Verde seco",
     "price": "$31.000",
     "original_price": "$34.414,00",
@@ -7161,17 +7216,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "2m Mantel NAVIDAD lurex dorado",
-    "price": "$29.400",
-    "original_price": "$23.467,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/06aea0f4-7c08-48b5-8503-a3b41f7d2eba-2c5eab25c011f83cf117900447780092-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con 2m Mantel NAVIDAD lurex dorado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/2m-mantel-navidad-lurex-dorado/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Gris perla claro rayas blancas | 50x50cm",
     "price": "$10.200",
     "original_price": "$7.238,00",
@@ -7223,17 +7267,6 @@
     "desc": "Añade un toque único a tu hogar con Contenedor Home | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/contenedor-home-gris-oscuro/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Contenedor Hawaii | Verde",
-    "price": "$6.700",
-    "original_price": "$6.200,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000199713-b927e74b60de0c8f1717300617635424-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Contenedor Hawaii | Verde. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/contenedor-hawaii-verde/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -7355,17 +7388,6 @@
     "desc": "Añade un toque único a tu hogar con 2,5m Mantel rayas gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/25m-mantel-rayas-gris/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Servilletas x 4 | Gasa crudo",
-    "price": "$11.800",
-    "original_price": "$11.803,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/captura-de-pantalla-2024-08-05-a-las-4-19-42p-m-4de30893bb037b575d17235731322843-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Servilletas x 4 | Gasa crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/servilletas-x-4-gasa-crudo/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -7498,17 +7520,6 @@
     "desc": "Añade un toque único a tu hogar con Cortina lazos | Canela. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/cortina-lazos-canela/",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Alfombra Cuyo | 60x200cm | Lisa",
-    "price": "$23.500",
-    "original_price": "$26.521,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000101915-01-2c76f81e463ea566b417144213506282-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Lisa. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-lisa/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -8103,6 +8114,17 @@
     "desc": "Añade un toque único a tu hogar con Rayas gris | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/rayas-gris-50x50cm/",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Cortina lazos | Arena",
+    "price": "$31.000",
+    "original_price": "$34.414,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/61e5b843-ecda-4bd9-979a-5abba6e38309-582302daad34d6086317683517012693-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Cortina lazos | Arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/cortina-de-bano-beige/",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
