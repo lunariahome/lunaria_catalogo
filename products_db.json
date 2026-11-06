@@ -1,12 +1,155 @@
 [
   {
-    "name": "Manta Osaka | Raya gris fondo crudo",
-    "price": "$30.900",
-    "original_price": "$24.642,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/d03577a0-51c9-4c9e-863d-36facb7784f5-87c260cc885cbc4e4e17938342303041-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Manta Osaka | Raya gris fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Alfombra Cuyo | 45x60cm | Lisa | 2da",
+    "price": "$12.500",
+    "original_price": "$6.970,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000061303-da166a853bbb0b9bd3169714026724761-2ceeaf7603384ba58617939663480459-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 45x60cm | Lisa | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/manta-osaka-raya-gris-fondo-crudo-1u869/?entry_path=category",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-45x60cm-lisa-2da-e7qc9/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Tote bag Capri | Langosta lisa | 2da",
+    "price": "$9.300",
+    "original_price": "$6.623,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/92dbd674-0128-4e7e-897f-aa7cd7c577bd-f04c83d91111c0ce9017939662535188-1024-1024.png",
+    "desc": "Añade un toque único a tu hogar con Tote bag Capri | Langosta lisa | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/tote-bag-capri-langosta-lisa-2da-t4ywl/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "2m Mantel NAVIDAD lurex plateado",
+    "price": "$26.400",
+    "original_price": "$21.120,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/74e80142-47fd-4b53-8cac-09b27b757f1b-ba3bd0d38e59b2ed4a17939143178037-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con 2m Mantel NAVIDAD lurex plateado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/2m-mantel-navidad-lurex-plateado-18zuh/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "2.5m Mantel NAVIDAD lurex dorado",
+    "price": "$31.700",
+    "original_price": "$26.400,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2432-3da5fc06ff9bb7203317939143966019-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con 2.5m Mantel NAVIDAD lurex dorado. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/2-5m-mantel-navidad-lurex-dorado-dupwe/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Guarda bolsas | Gris perla",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/d47efde1-36cc-4851-8718-e7079e9b8a47-54966e4628a72b905817939116029431-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Gris perla. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-gris-perla-1hxi0/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Guarda bolsas | Verde palta liso",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/54734dc0-5f7e-4453-b037-9b6d3130390a-e8b54c673c7c397f3517939115909923-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Verde palta liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-verde-palta-liso-154yi/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Guarda bolsas | Verde oscuro liso",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6ad29bae-1675-4db5-ba44-5ba1afda06ff-c626b01296cd54329617939115656448-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Verde oscuro liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-verde-oscuro-liso-pgspo/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Olivia grafito",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/229555b0-0baf-4bda-944f-ef03301d6c5f-5c1cba2590d2839fbe17939114203784-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Olivia grafito. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-olivia-grafito-1miem/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Chocolate liso",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/3ab64074-7d61-48cf-92fc-40003280a858-1a44719c32d388132817939113981990-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Chocolate liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-chocolate-liso-1dyfk/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Grafito liso",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/9f23e9d7-26eb-46d4-9889-66132650149f-bf43638ad5f6bb7a6317939113599900-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Grafito liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-grafito-liso-5bxek/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Verde palta liso",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/2d30af42-b1fd-438a-b86d-f1edc952c0bb-e471555781fac71f0e17939113131647-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Verde palta liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-verde-palta-liso-1ll39/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Verde oscuro liso",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1d8df1cb-e190-4881-ba3b-452136b44ef3-c4c049ba502e92948c17939112989789-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Verde oscuro liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-verde-oscuro-liso-1c2n1/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Avellana liso",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/70ed3165-a9e2-48f8-9eb8-d8dfa3bd525a-3f1215b3523a49bae817939111648250-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Avellana liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-avellana-liso-ahlm7/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "2,5m Mantel con Volados | Olivia visón fondo color",
+    "price": "$41.300",
+    "original_price": "$34.380,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/bce06eed-035d-4ea3-8d4d-8c57c277dde2-d6024b82a0e2325e1b17939111461608-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con 2,5m Mantel con Volados | Olivia visón fondo color. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/25m-mantel-con-volados-olivia-vison-fondo-color-14qnz/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -198,17 +341,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "3m Mantel rayas tostado fondo crudo",
-    "price": "$37.500",
-    "original_price": "$31.237,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/525e1ac9-0345-4a31-964f-0c63de0d2030-e151b4ef1d77a424c817938299627466-1024-1024.png",
-    "desc": "Añade un toque único a tu hogar con 3m Mantel rayas tostado fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/3m-mantel-rayas-tostado-fondo-crudo-1h3ce/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Funda bidón 20L. | Franja visón-crudo",
     "price": "$10.700",
     "original_price": "$7.585,00",
@@ -220,28 +352,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Funda bidón 20L. | Franja Avellana-chocolate",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6f5a44db-8e47-40de-bdb5-6aa7856479a8-8ac01d3c1b69e655bc17938115045201-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja Avellana-chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-avellana-chocolate-1qkg5/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón 20L. | Franja raya grafito - crudo",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/dea75874-e584-486e-9a4f-cbf2489697cb-26b62078748598f6f317938114238480-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja raya grafito - crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-raya-grafito-crudo-lii2p/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Funda bidón 20L. | Franja negro - azul aero",
     "price": "$10.700",
     "original_price": "$7.585,00",
@@ -249,50 +359,6 @@
     "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja negro - azul aero. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-negro-azul-aero-kmfns/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón 20L. | Franja arena - raya arena",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/0eeca177-63dd-4933-b9f6-a1453cb5831c-743bdf5bfdf6c52bba17938111302150-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja arena - raya arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-arena-raya-arena-mkb5l/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón 20L. | Franja verde oscuro - raya verde claro",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/4d085e60-6d09-4e53-83da-054fc0b035af-e7f9d2f365dc29221617938110526639-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja verde oscuro - raya verde claro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-verde-oscuro-raya-verde-claro-k8ypw/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón 20L. | Franja chocolate - raya grafito",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/3d16a53a-7496-4e0e-8c51-4c04933bc48b-5194af8022ea0c07a817938104164331-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja chocolate - raya grafito. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-chocolate-raya-grafito-ty8v1/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón 20L. | Franja gris - raya grafito",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/d6a758f4-274c-47e5-b4e1-a43671358efc-0a0376ac5e330c839c17938102143243-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja gris - raya grafito. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-gris-raya-verde-oscuro-770fg/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -315,17 +381,6 @@
     "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Volados ladrillo-raya roja. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-volados-rojo-raya-roja-5wdhd/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón 20L. | Volados gris-Blanco",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/8ad4e130-f5a8-4e55-942c-bc0cdb301877-ddbb78baf755d145f117938097391730-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Volados gris-Blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-volados-gris-blanco-1e5nc/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -370,17 +425,6 @@
     "desc": "Añade un toque único a tu hogar con Pillow crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/pillow-crudo-qen5l/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Pillow gris medio",
-    "price": "$40.200",
-    "original_price": "$33.462,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/92790505-0a6e-4050-be84-bbf137d07952-8e278a75b1e87eefda17938231705298-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Pillow gris medio. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/pillow-chocolate-gris-medio-zm4pm/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -627,24 +671,13 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Funda bidón 20L. | Franja rosa-Raya nude",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/8765f654-eef6-43bc-a22b-52fa4e42534f-3c0b178026a6cb7fb317906094641195-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja rosa-Raya nude. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Porta rollos | Olivia avellana",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e5d75a4b-b1c5-45c0-b28c-a45548d48fb4-0826fa97f2741f51e817906107698277-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Olivia avellana. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-rosa-raya-nude-110e8/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Mini Pillow Mascotas | Verde palta",
-    "price": "$24.100",
-    "original_price": "$17.823,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/c39fe1fc-0e97-49ab-ae57-8c4ad7641d83-90319242788d66e99217903611128087-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Mini Pillow Mascotas | Verde palta. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/mini-pillow-mascotas-verde-palta-10z0d/?entry_path=category",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-olivia-avellana-1gmr6/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -847,17 +880,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Almohadón para silla | Nube | Gris perla raya blanca",
-    "price": "$16.800",
-    "original_price": "$12.423,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/37f87ea4-f46c-4be8-bab8-0896d777f275-3b47be802418d8913a17897706380615-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón para silla | Nube | Gris perla raya blanca. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-para-silla-nube-gris-raya-blanca-1o999/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Almohadón para silla | Nube | Gris",
     "price": "$16.800",
     "original_price": "$12.423,00",
@@ -924,28 +946,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Funda bidón 20L. | Volado rosa-Crudo",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/71e596a9-9578-451b-a1d6-638df471c2f1-29fd45eb64c0fcaaa417896863939675-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Volado rosa-Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-volado-rosa-crudo-3xvvj/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón 20L. | Franja Olivia verde palta-Verde oscuro",
-    "price": "$10.700",
-    "original_price": "$7.585,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/20c6e8c9-2b93-404b-a1b5-6117f7701378-60745958fea299f5ac17896861485904-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón 20L. | Franja Olivia verde palta-Verde oscuro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-20l-franja-olivia-verde-palta-verde-oscuro-t7aat/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Pillow grafito",
     "price": "$40.200",
     "original_price": "$33.462,00",
@@ -964,6 +964,61 @@
     "desc": "Añade un toque único a tu hogar con Pie de cama Tusor | Negro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/pie-de-cama-tusor-negro-nlye9/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Guarda bolsas | Chocolate",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/a331d01e-985b-44ff-b74f-81c3f3489659-85ef00ef265e57a2ed17896819490617-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-chocolate-1f2gg/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Guarda bolsas | Olivia verde fondo color",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/51dbea1c-7514-4a6a-b229-6370c147c8c6-d3c96f535ea5b3da2a17896817787889-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Olivia verde fondo color. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-olivia-verde-fondo-color-quwm3/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Guarda bolsas | Visón",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/17e6e2cb-f042-4dd9-b122-ea6b40d726a4-c3a0b178040a9bbf2517896816543225-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Visón. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-vison-1eam6/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Olivia verde palta",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/dd13d5de-a255-4340-aa55-ad832417177a-004a7f210df9722e2017896747548897-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Olivia verde palta. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-olivia-verde-palta-cgdwj/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Porta rollos | Olivia arena",
+    "price": "$7.600",
+    "original_price": "$5.424,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/b037642a-eae9-4b22-b1b7-81284ea06e27-667a66e0e9889788fc17896747367381-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Porta rollos | Olivia arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/porta-rollos-olivia-arena-84lqj/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1133,6 +1188,28 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Guarda bolsas | Olivia avellana",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/69e06ed7-ff2c-4047-be20-5e2492f9af35-6e90c7aee1032846ea17885588152597-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Olivia avellana. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-olivia-avellana-1gj6z/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Guarda bolsas | Gris medio",
+    "price": "$7.100",
+    "original_price": "$5.037,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/153e3e04-6659-45b0-ba70-9c4a85b053de-4e99fac0cc8b6acf1717885584570305-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Gris medio. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-gris-liso-1hn42/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Almohadón completo con pestaña | Olivia verde palta fondo verde palta | 40x40cm",
     "price": "$24.000",
     "original_price": "$17.725,00",
@@ -1162,17 +1239,6 @@
     "desc": "Añade un toque único a tu hogar con 2,5m Mantel con Volados | Olivia verde palta fondo color. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/25m-mantel-con-volados-olivia-verde-palta-fondo-verde-palta-15wc3/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "2,5m Mantel con Volados | Olivia grafito fondo color",
-    "price": "$41.300",
-    "original_price": "$34.380,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e4679d81-766d-4cbe-be1a-9f54a52e9801-bf7d3db35aa42efa3e17885541752151-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con 2,5m Mantel con Volados | Olivia grafito fondo color. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/25m-mantel-con-volados-olivia-grafito-fondo-grafito-dip13/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1540,17 +1606,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Almohadón completo | Aurora combinado fondo gris | 45x30cm",
-    "price": "$18.100",
-    "original_price": "$13.369,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/04ed21c2-84b6-46a6-8e64-30b262d8e975-4d68e4cb8761aa1b8117863737712495-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Aurora combinado fondo gris | 45x30cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-aurora-combinado-fondo-gris-45x30cm-rnmwk/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Manta tusor flecos sin costura | Gris perla",
     "price": "$31.300",
     "original_price": "$25.707,00",
@@ -1558,17 +1613,6 @@
     "desc": "Añade un toque único a tu hogar con Manta tusor flecos sin costura | Gris perla. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/manta-tusor-flecos-sin-costura-gris-perla-ithwn/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Funda bidón Lola gris",
-    "price": "$8.200",
-    "original_price": "$5.796,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/febb3e82-60a8-462d-b72c-e1d338faf4eb-fa55fbd60f62c7c98417861240503802-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Funda bidón Lola gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/funda-bidon-lola-gris-49h1o/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1804,17 +1848,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Arena con pestaña | 50x50cm",
-    "price": "$9.200",
-    "original_price": "$6.514,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/a28f669d-318f-49c9-81fd-3021100e4d26-b3b0435984897f1e6d17842298919280-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Arena con pestaña | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/arena-con-pestana-50x50cm-1ta04/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Almohadón para silla plush boucle | Natural",
     "price": "$14.700",
     "original_price": "$10.455,00",
@@ -1991,17 +2024,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Necessaire raya ancha grafito",
-    "price": "$9.900",
-    "original_price": "$7.020,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/5a1417c2-f7bb-42b4-b174-8d99ca819017-ace63deb23e406da5e17835184435658-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Necessaire raya ancha grafito. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/necessaire-raya-ancha-grafito-15449/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Almohadón completo | Raya ancha azul | 40x40cm",
     "price": "$16.800",
     "original_price": "$12.780,00",
@@ -2068,17 +2090,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Necessaire Box | Bali fondo azul",
-    "price": "$8.700",
-    "original_price": "$7.740,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e3bd3e6d-db1c-4cf3-bfb5-356563eaea38-abf622c8a7596e698417818804984188-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Necessaire Box | Bali fondo azul. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/necessaire-box-bali-fondo-gris-medio-1p94k/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "2,5m Mantel con Volados | Chocolate",
     "price": "$32.900",
     "original_price": "$32.364,00",
@@ -2086,17 +2097,6 @@
     "desc": "Añade un toque único a tu hogar con 2,5m Mantel con Volados | Chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/25m-mantel-con-volados-chocolate-94upf/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Manta india Adda gris",
-    "price": "$23.700",
-    "original_price": "$22.555,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/2a2ae107-479a-48fa-8f6e-bc12bb6932d4-0eb641b5a5f7bf35f117813078903719-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Manta india Adda gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/manta-india-adda-gris-a2z4j/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -2170,7 +2170,7 @@
     "name": "2,5m Mantel Impermeable | Cuadros grandes",
     "price": "$32.400",
     "original_price": "$32.224,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/dce63d37-ce4c-4d40-9961-b013c2a6c1b8-f691a592fac654cda717811922992744-1024-1024.webp",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/54d46673-f374-42a7-89b3-1b1d10eb942c-a8dcbeb40ef9825e6717939123771191-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con 2,5m Mantel Impermeable | Cuadros grandes. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/25m-mantel-impermeable-cuadros-grandes-qoacc/?entry_path=category",
@@ -2339,17 +2339,6 @@
     "desc": "Añade un toque único a tu hogar con Bolsa para el auto | Hojas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/bolsa-para-el-auto-hojas-1nr0a/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Mini Pillow Mascotas | Avellana",
-    "price": "$20.200",
-    "original_price": "$17.823,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/7fc015e6-c9e0-4877-ad76-b0cea1f80f27-46e3e011269fc5d62917787814029731-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Mini Pillow Mascotas | Avellana. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/mini-pillow-mascotas-avellana-pfaqi/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -2999,17 +2988,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra baño pelo corto | Chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-bano-pelo-corto-chocolate-yb8y7/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Alfombra baño rayas grises",
-    "price": "$11.200",
-    "original_price": "$9.913,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e66027d1-c47b-4723-a107-c214e94b154d-3e36f42fcc64041bce17721393635839-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra baño rayas grises. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-bano-rayas-grises-o9hkw/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3938,17 +3916,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Felpudo Hi 40x60",
-    "price": "$20.800",
-    "original_price": "$18.606,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_6418-1855a0c606b45f96bf17626565147999-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Felpudo Hi 40x60. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/felpudo-hi-40x60/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Manta Cotton | Corteza",
     "price": "$29.600",
     "original_price": "$23.671,00",
@@ -3978,17 +3945,6 @@
     "desc": "Añade un toque único a tu hogar con Círculos Algodón medidas variables (mínimo 12cm) | Navideños Papa Noel. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/circulos-algodon-medidas-variables-minimo-12cm-navidenos-papa-noel-3jdg6/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Círculos Algodón medidas variables (mínimo 12cm) | Navideños coronas rojas",
-    "price": "$5.800",
-    "original_price": "$4.141,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_5927-e0f78075542eb140e817617718886420-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Círculos Algodón medidas variables (mínimo 12cm) | Navideños coronas rojas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/circulos-algodon-medidas-variables-minimo-12cm-navidenos-coronas-rojas-mwppj/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -4231,17 +4187,6 @@
     "desc": "Añade un toque único a tu hogar con Mini panera Algodón | Camel. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/mini-panera-algodon-camel/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Bandeja ovalada chica Algodón | Camel",
-    "price": "$7.000",
-    "original_price": "$5.943,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_4352-6bb167fc6cbcc998a117589269219437-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Bandeja ovalada chica Algodón | Camel. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/bandeja-ovalada-chica-algodon-camel/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -6937,17 +6882,6 @@
     "desc": "Añade un toque único a tu hogar con Rayas gris | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/rayas-gris-50x50cm/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Cortina lazos | Arena",
-    "price": "$31.000",
-    "original_price": "$30.973,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/61e5b843-ecda-4bd9-979a-5abba6e38309-582302daad34d6086317683517012693-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Cortina lazos | Arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/cortina-de-bano-beige/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
