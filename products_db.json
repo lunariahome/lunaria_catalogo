@@ -1,5 +1,38 @@
 [
   {
+    "name": "Alfombra Cuadrada (150x150) | Franja gris con raya fina negra",
+    "price": "$25.600",
+    "original_price": "$19.683,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2724-8ce3348971c876053217948321993065-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Franja gris con raya fina negra. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-franja-gris-con-raya-fina-negra-uqb0q/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Cuadrada (150x150) | Franja gris con raya fina tostada",
+    "price": "$25.600",
+    "original_price": "$19.683,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2726-4c6d1ea6a29a0693ff17948321311873-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Franja gris con raya fina tostada. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-franja-gris-con-raya-fina-tostada-1s01u/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Chica (100x150) | Franja negro-celeste",
+    "price": "$18.600",
+    "original_price": "$13.010,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2702-0ac937a18670a9e3a317948309021552-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Chica (100x150) | Franja negro-celeste. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-chica-100x150-franja-negro-celeste-adrl4/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Alfombra Cuadrada (150x150) | Raya fina Gris azulado",
     "price": "$25.600",
     "original_price": "$19.683,00",
@@ -18,17 +51,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Fondo Gris azulado con rayas blanca/negra. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-fondo-gris-azulado-liso-con-rayas-blanca-negra-c3bmv/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Alfombra Cuadrada (150x150) | Mil rayas gris",
-    "price": "$21.000",
-    "original_price": "$19.683,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0575-cb2da2a48862c16e6017946836554976-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Mil rayas gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-mil-rayas-gris-olq4y/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -66,17 +88,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra Cuadrada (150x150) | Rayada verde y blanco",
-    "price": "$25.600",
-    "original_price": "$19.683,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2706-38c42bedba0ec1172b17946857402032-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Rayada verde y blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-rayada-verde-y-blanco-199kt/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra Chica (100x150) | Raya ancha gris con franja gris",
     "price": "$18.600",
     "original_price": "$13.010,00",
@@ -84,17 +95,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra Chica (100x150) | Raya ancha gris con franja gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-raya-ancha-gris-con-franja-gris-zd7da/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Alfombra Chica (100x150) | Mil rayas celeste",
-    "price": "$18.600",
-    "original_price": "$13.010,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2709-af9d29c273d502964e17946857631595-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Chica (100x150) | Mil rayas celeste. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-chica-100x150-mil-rayas-celeste-v9jrd/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -143,17 +143,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra Petit (70x150) | Fondo gris azulado raya fina blanca",
-    "price": "$15.700",
-    "original_price": "$10.131,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0370-d908592be2ceb056ed17946702435662-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Fondo gris azulado raya fina blanca. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-fondo-gris-azulado-raya-fina-blanca-cnez5/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra Petit (70x150) | Fondo gris azulado tres rayas blancas",
     "price": "$15.700",
     "original_price": "$10.131,00",
@@ -161,6 +150,17 @@
     "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Fondo gris azulado tres rayas blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-fondo-gris-azulado-tres-rayas-blancas-ukz5k/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Alfombra Petit (70x150) | Raya mixta negro-celeste",
+    "price": "$15.700",
+    "original_price": "$10.131,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2701-64cb8efc82f634a3d717946854196934-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Raya mixta negro-celeste. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-raya-mixta-negro-celeste-wcjhq/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -187,13 +187,35 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Almohadón completo | Mis plantas mi mundo | Gris elefante | 50x25cm",
-    "price": "$17.700",
-    "original_price": "$13.100,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/89333b35-bd1a-4283-a66a-473918327d15-8a6f8d47cd79a166a117944921800031-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Mis plantas mi mundo | Gris elefante | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Almohadón completo | Aquí y ahora | Gris plomo | 50x25cm",
+    "price": "$17.300",
+    "original_price": "$12.800,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/70cdbf7c-42ed-4342-916c-d7e4cd438ec9-9e5c04990860b20b2d17944922648552-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo | Aquí y ahora | Gris plomo | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-mis-plantas-mi-mundo-gris-elefante-50x25cm-gpc6y/?entry_path=category",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-aqui-y-ahora-gris-plomo-50x25cm-xif5u/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Almohadón completo | Lo simple suma | Chocolate | 50x25cm",
+    "price": "$17.300",
+    "original_price": "$12.800,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/474d4632-1fb4-45c9-97ae-bd0d8eba3d8a-37f077060f5a3c159517944919955801-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo | Lo simple suma | Chocolate | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-lo-simple-suma-chocolate-50x25cm-1rtxp/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Almohadón completo | Celebra | Arena | 50x25cm",
+    "price": "$17.300",
+    "original_price": "$12.800,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e59bd6f7-8662-4d11-90f9-73c7125c43d8-58b83140935ca06d1017944918793191-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo | Celebra | Arena | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-celebra-arena-50x25cm-n733e/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -205,17 +227,6 @@
     "desc": "Añade un toque único a tu hogar con Almohadón completo | Celebra | Gris | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/almohadon-completo-celebra-gris-50x25cm-mgw3y/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Almohadón completo | Brilla | Gris | 50x25cm",
-    "price": "$17.700",
-    "original_price": "$13.100,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/405f315c-ddde-45df-b15b-1576cb86ac74-07b29a8f2cdaf00dca17944867409360-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Brilla | Gris | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-brilla-gris-50x25cm-eexpz/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -330,17 +341,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "3m Mantel rayas gris fondo crudo",
-    "price": "$41.700",
-    "original_price": "$34.708,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/4e00ce67-b05a-4ca6-9938-d2f0f6646909-e3184bd65f9d69cce517940869409487-1024-1024.png",
-    "desc": "Añade un toque único a tu hogar con 3m Mantel rayas gris fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/3m-mantel-rayas-gris-fondo-crudo-g5av3/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra Cuyo | 45x60cm | Lisa | 2da",
     "price": "$12.500",
     "original_price": "$6.970,00",
@@ -370,17 +370,6 @@
     "desc": "Añade un toque único a tu hogar con Guarda bolsas | Verde palta liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-verde-palta-liso-154yi/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Guarda bolsas | Verde oscuro liso",
-    "price": "$7.900",
-    "original_price": "$5.596,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6ad29bae-1675-4db5-ba44-5ba1afda06ff-c626b01296cd54329617939115656448-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Verde oscuro liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-verde-oscuro-liso-pgspo/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -495,17 +484,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "3m Mantel mil rayas visón",
-    "price": "$41.700",
-    "original_price": "$34.708,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/483ff6ce-7c8d-4b79-8840-550427b0b696-d2f6d2e71d85c6272c17941546312732-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con 3m Mantel mil rayas visón. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/3m-mantel-mil-rayas-vison-1cu4s/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "3m Mantel raya verde fondo crudo",
     "price": "$41.700",
     "original_price": "$34.708,00",
@@ -524,17 +502,6 @@
     "desc": "Añade un toque único a tu hogar con 3m Mantel rayas combinadas gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/3m-mantel-raya-combinada-gris-ds9np/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "3m Mantel rayas tostado fondo crudo",
-    "price": "$41.700",
-    "original_price": "$34.708,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/525e1ac9-0345-4a31-964f-0c63de0d2030-e151b4ef1d77a424c817938299627466-1024-1024.png",
-    "desc": "Añade un toque único a tu hogar con 3m Mantel rayas tostado fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/3m-mantel-rayas-tostado-fondo-crudo-1h3ce/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -612,6 +579,17 @@
     "desc": "Añade un toque único a tu hogar con Contenedor Corazón | Gris plomo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/contenedor-corazon-gris-plomo-1sazy/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
+    "name": "Individual Carlota Vainilla/Arena - rectangular | 2da",
+    "price": "$9.400",
+    "original_price": "$6.649,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0525-a9c63e6a2d331c397917921516692910-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Individual Carlota Vainilla/Arena - rectangular | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/individual-carlota-vainilla-arena-rectangular-2da-cb6gt/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1144,17 +1122,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra costado de cama Rombos | Visón",
-    "price": "$35.400",
-    "original_price": "$29.500,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_9922-f6f52a5302ae83811b17894757504237-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra costado de cama Rombos | Visón. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-costado-de-cama-rombos-beige-1gn9b/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra baño Rombos | Gris",
     "price": "$14.900",
     "original_price": "$10.625,00",
@@ -1408,17 +1375,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Manta Saona washed | Rayas Negras | 2da",
-    "price": "$21.700",
-    "original_price": "$16.009,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_9245-b815f9533a9923b99217873245268524-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Manta Saona washed | Rayas Negras | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/manta-saona-washed-rayas-negras-2da-6lzin/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Sobre Contenedor Broches | Día de lavado | Negro",
     "price": "$10.300",
     "original_price": "$7.300,00",
@@ -1431,8 +1387,8 @@
   },
   {
     "name": "Manta Saona washed | Rayas Grises",
-    "price": "$26.100",
-    "original_price": "$20.575,00",
+    "price": "$20.500",
+    "original_price": "$15.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_9248-282df2f97dacd1767917872658609477-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Manta Saona washed | Rayas Grises. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -1442,8 +1398,8 @@
   },
   {
     "name": "Manta Saona washed | Rayas Negras",
-    "price": "$26.100",
-    "original_price": "$20.575,00",
+    "price": "$20.500",
+    "original_price": "$15.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_9245-0fc90682ff4a3a406417872660468067-1024-1024.webp",
     "desc": "Añade un toque único a tu hogar con Manta Saona washed | Rayas Negras. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -1470,17 +1426,6 @@
     "desc": "Añade un toque único a tu hogar con Individual Yute redondo 30cm⌀ | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/individual-yute-redondo-30cm-2da-1wjsq/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "2,5m Mantel cuatro rayas grafito | 2da",
-    "price": "$26.500",
-    "original_price": "$21.180,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000160925-f0596207c5ab7d4d7d17865384804862-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con 2,5m Mantel cuatro rayas grafito | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/25m-mantel-cuatro-rayas-grafito-2da-1gqxb/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -1705,17 +1650,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Almohadón completo con pestaña | Olivia Arena | 40x40cm",
-    "price": "$25.700",
-    "original_price": "$19.694,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7828-809ccf7e1d4c5ed59c17841224594717-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo con pestaña | Olivia Arena | 40x40cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-con-pestana-olivia-arena-40x40cm-1rrju/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Almohadón completo | Raya fina bordo | 40x40cm",
     "price": "$20.600",
     "original_price": "$15.253,00",
@@ -1855,17 +1789,6 @@
     "desc": "Añade un toque único a tu hogar con Necessaire Box | Bali fondo azul. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/necessaire-box-bali-fondo-gris-medio-1p94k/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Almohadón completo con pestaña | Olivia Verde fondo verde | 40x40cm",
-    "price": "$20.000",
-    "original_price": "$19.694,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/62559de9-9bf2-4ac8-88fd-1c15e41cc878-fbe780f3796a36e0f317812924403297-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo con pestaña | Olivia Verde fondo verde | 40x40cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-con-pestana-olivia-verde-fondo-verde-40x40cm-copia-1kui8/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -2123,17 +2046,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Hojas verdes | 50x70cm",
-    "price": "$8.400",
-    "original_price": "$7.996,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/b4364d7b-a19a-4976-a8d9-7ae34fdb8bd8-ad2abe88756255742017781802455878-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Hojas verdes | 50x70cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/hojas-verdes-50x70cm-xjp7y/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Plumero negro | 50x70cm",
     "price": "$8.400",
     "original_price": "$7.996,00",
@@ -2147,7 +2059,7 @@
   {
     "name": "Manta Chica (100x150) | Cotton | Off white",
     "price": "$16.000",
-    "original_price": "$13.878,00",
+    "original_price": "$14.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/79f29c2c-d83e-4bf6-8aac-b2ef47ac8bf9-b5fade3f495b6ba77817779265693283-1024-1024.jpg",
     "desc": "Añade un toque único a tu hogar con Manta Chica (100x150) | Cotton | Off white. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -2277,6 +2189,17 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Alfombra Cuadrada (150x150) | Franja negras-chocolate",
+    "price": "$21.000",
+    "original_price": "$19.683,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/923cdd13-487f-47e4-b332-36dcdfdba6ee-68ff8eaeb5fc6c459317770847751544-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Franja negras-chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-franja-negras-chocolate-1jkfi/?entry_path=category",
+    "actual_stock": -1,
+    "catalog_stock": "Ilimitado"
+  },
+  {
     "name": "Alfombra 2x1.5 | Tres rayas finas negras",
     "price": "$24.100",
     "original_price": "$20.931,00",
@@ -2365,17 +2288,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Camino de tusor con Volados | Negro",
-    "price": "$20.400",
-    "original_price": "$16.203,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6da23708-2251-4a0e-989a-8a37c59956c5-0db8d3f90d46106ff017769638464363-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino de tusor con Volados | Negro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-de-tusor-con-volados-negro-1qgxo/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Individual Algodón 30cm⌀ | Terracota",
     "price": "$10.100",
     "original_price": "$10.560,00",
@@ -2444,7 +2356,7 @@
   {
     "name": "Manta Chica (100x150) | Cotton | Verde",
     "price": "$16.000",
-    "original_price": "$13.010,00",
+    "original_price": "$14.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e3d45f13-480c-4e60-8e53-60bb9be2239e-1d1c79359fa4acf98017749888368409-1024-1024.png",
     "desc": "Añade un toque único a tu hogar con Manta Chica (100x150) | Cotton | Verde. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
@@ -2713,17 +2625,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 60x200cm | Rayas grises. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-60x200cm-rayas-grises-1fe5f/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Camino de gasa con Volados | Gris",
-    "price": "$18.400",
-    "original_price": "$13.782,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/81a664f4-ee89-468a-9d07-7f8bf9d54379-a85d1986df9214a09117722230349708-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino de gasa con Volados | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-de-gasa-con-volados-gris-imjpy/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3065,17 +2966,6 @@
     "desc": "Añade un toque único a tu hogar con Cortina gasa con ojales y Volados | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/cortina-gasa-con-ojales-y-volados-gris-wvhtk/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Juego cortinas jareta Gasa | Crudo",
-    "price": "$40.200",
-    "original_price": "$44.332,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e7d6a48b-e6b1-4689-927f-f4fb7ebc371b-7e9b52b63bb2586cde17697235712625-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Juego cortinas jareta Gasa | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/juego-cortinas-jareta-gasa-crudo-w46tl/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3487,17 +3377,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Felpudo Hi 40x60",
-    "price": "$20.800",
-    "original_price": "$20.673,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_6418-1855a0c606b45f96bf17626565147999-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Felpudo Hi 40x60. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/felpudo-hi-40x60/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Manta Cotton | Corteza",
     "price": "$31.900",
     "original_price": "$26.301,00",
@@ -3560,17 +3439,6 @@
     "desc": "Añade un toque único a tu hogar con Almohadón para silla | Arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/almohadon-para-silla-arena/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Camino Amelia | Tejido crudo",
-    "price": "$11.200",
-    "original_price": "$7.745,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e8f8efb7-875e-4160-a11b-697eb0e7ec1e-2a1ccc33e6a4bb615117938256909167-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Camino Amelia | Tejido crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/camino-amelia-tejido-crudo/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -3927,17 +3795,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Alfombra Cuyo | 45x60cm | Rayas Blancas",
-    "price": "$12.400",
-    "original_price": "$10.167,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3372-5ba6fb9b30014cd46b17560457915886-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 45x60cm | Rayas Blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-45x60cm-rayas-blancas/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Alfombra Cuyo | 60x110cm | Rayas Grises Anchas",
     "price": "$16.000",
     "original_price": "$15.470,00",
@@ -3967,17 +3824,6 @@
     "desc": "Añade un toque único a tu hogar con Posavasos set x 6 | Negro liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "",
     "link": "https://www.wearehome.com.ar/productos/posavasos-set-x-6-negro-liso/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Posavasos set x 6 | Combinado negro",
-    "price": "$11.000",
-    "original_price": "$8.800,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3213-096db21c3277527c5517558774577097-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Posavasos set x 6 | Combinado negro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/posavasos-set-x-6-combinado-negro/?entry_path=category",
     "actual_stock": -1,
     "catalog_stock": "Ilimitado"
   },
@@ -6358,28 +6204,6 @@
     "catalog_stock": "Ilimitado"
   },
   {
-    "name": "Cortina lazos | Blanco",
-    "price": "$31.000",
-    "original_price": "$34.414,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e31b4e35-e484-4d59-9228-4bb3424385d6-ec0c1369a7353cd9eb17683511339993-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Cortina lazos | Blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/cortina-lazos-blanco/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
-    "name": "Juego cortinas jareta Tusor | Crudo",
-    "price": "$47.600",
-    "original_price": "$52.583,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/017ebd06-8349-49e9-8c36-b514d9b5d982-518a34bfd7b1567fbb17697224845282-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Juego cortinas jareta Tusor | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "",
-    "link": "https://www.wearehome.com.ar/productos/juego-cortinas-jareta-tusor-crudo-14eby/?entry_path=category",
-    "actual_stock": -1,
-    "catalog_stock": "Ilimitado"
-  },
-  {
     "name": "Blanca | 50x70",
     "price": "$9.600",
     "original_price": "$9.073,00",
@@ -6424,6 +6248,39 @@
     "catalog_stock": "Ilimitado"
   },
   {
+    "name": "Alfombra Cuadrada (150x150) | Mil rayas gris",
+    "price": "$21.000",
+    "original_price": "$19.683,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0575-cb2da2a48862c16e6017946836554976-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Mil rayas gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-mil-rayas-gris-olq4y/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Alfombra Cuadrada (150x150) | Rayada verde y blanco",
+    "price": "$25.600",
+    "original_price": "$19.683,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2706-38c42bedba0ec1172b17946857402032-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Rayada verde y blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-rayada-verde-y-blanco-199kt/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Alfombra Chica (100x150) | Mil rayas celeste",
+    "price": "$18.600",
+    "original_price": "$13.010,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_2709-af9d29c273d502964e17946857631595-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Chica (100x150) | Mil rayas celeste. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-chica-100x150-mil-rayas-celeste-v9jrd/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Alfombra Chica (100x150) | Raya mixta negro-celeste",
     "price": "$18.600",
     "original_price": "$13.010,00",
@@ -6446,35 +6303,35 @@
     "catalog_stock": 0
   },
   {
-    "name": "Almohadón completo | Aquí y ahora | Gris plomo | 50x25cm",
-    "price": "$17.300",
-    "original_price": "$12.800,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/70cdbf7c-42ed-4342-916c-d7e4cd438ec9-9e5c04990860b20b2d17944922648552-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Aquí y ahora | Gris plomo | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Alfombra Petit (70x150) | Fondo gris azulado raya fina blanca",
+    "price": "$15.700",
+    "original_price": "$10.131,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0370-d908592be2ceb056ed17946702435662-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Alfombra Petit (70x150) | Fondo gris azulado raya fina blanca. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-aqui-y-ahora-gris-plomo-50x25cm-xif5u/?entry_path=category",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-petit-70x150-fondo-gris-azulado-raya-fina-blanca-cnez5/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
   {
-    "name": "Almohadón completo | Lo simple suma | Chocolate | 50x25cm",
-    "price": "$17.300",
-    "original_price": "$12.800,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/474d4632-1fb4-45c9-97ae-bd0d8eba3d8a-37f077060f5a3c159517944919955801-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Lo simple suma | Chocolate | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Almohadón completo | Mis plantas mi mundo | Gris elefante | 50x25cm",
+    "price": "$17.700",
+    "original_price": "$13.100,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/89333b35-bd1a-4283-a66a-473918327d15-8a6f8d47cd79a166a117944921800031-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo | Mis plantas mi mundo | Gris elefante | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-lo-simple-suma-chocolate-50x25cm-1rtxp/?entry_path=category",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-mis-plantas-mi-mundo-gris-elefante-50x25cm-gpc6y/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
   {
-    "name": "Almohadón completo | Celebra | Arena | 50x25cm",
-    "price": "$17.300",
-    "original_price": "$12.800,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e59bd6f7-8662-4d11-90f9-73c7125c43d8-58b83140935ca06d1017944918793191-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Almohadón completo | Celebra | Arena | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "name": "Almohadón completo | Brilla | Gris | 50x25cm",
+    "price": "$17.700",
+    "original_price": "$13.100,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/405f315c-ddde-45df-b15b-1576cb86ac74-07b29a8f2cdaf00dca17944867409360-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo | Brilla | Gris | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-celebra-arena-50x25cm-n733e/?entry_path=category",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-brilla-gris-50x25cm-eexpz/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -6486,6 +6343,17 @@
     "desc": "Añade un toque único a tu hogar con 3m Mantel fondo grafito raya gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/3m-mantel-fondo-grafito-raya-gris-1mqa3/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "3m Mantel rayas gris fondo crudo",
+    "price": "$41.700",
+    "original_price": "$34.708,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/4e00ce67-b05a-4ca6-9938-d2f0f6646909-e3184bd65f9d69cce517940869409487-1024-1024.png",
+    "desc": "Añade un toque único a tu hogar con 3m Mantel rayas gris fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/3m-mantel-rayas-gris-fondo-crudo-g5av3/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -6607,6 +6475,17 @@
     "desc": "Añade un toque único a tu hogar con Guarda bolsas | Grafito liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-grafito-liso-14euf/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Guarda bolsas | Verde oscuro liso",
+    "price": "$7.900",
+    "original_price": "$5.596,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6ad29bae-1675-4db5-ba44-5ba1afda06ff-c626b01296cd54329617939115656448-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Guarda bolsas | Verde oscuro liso. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/guarda-bolsas-verde-oscuro-liso-pgspo/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -6783,6 +6662,28 @@
     "desc": "Añade un toque único a tu hogar con 3m Mantel Lola gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/3m-mantel-lola-gris-a8krh/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "3m Mantel mil rayas visón",
+    "price": "$41.700",
+    "original_price": "$34.708,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/483ff6ce-7c8d-4b79-8840-550427b0b696-d2f6d2e71d85c6272c17941546312732-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con 3m Mantel mil rayas visón. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/3m-mantel-mil-rayas-vison-1cu4s/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "3m Mantel rayas tostado fondo crudo",
+    "price": "$41.700",
+    "original_price": "$34.708,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/525e1ac9-0345-4a31-964f-0c63de0d2030-e151b4ef1d77a424c817938299627466-1024-1024.png",
+    "desc": "Añade un toque único a tu hogar con 3m Mantel rayas tostado fondo crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/3m-mantel-rayas-tostado-fondo-crudo-1h3ce/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -7300,17 +7201,6 @@
     "desc": "Añade un toque único a tu hogar con Bolsa Capri + Lona | Limonata. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/bolsa-capri-lona-limonata-qifxq/?entry_path=category",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Individual Carlota Vainilla/Arena - rectangular | 2da",
-    "price": "$9.400",
-    "original_price": "$6.649,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0525-a9c63e6a2d331c397917921516692910-1024-1024.jpg",
-    "desc": "Añade un toque único a tu hogar con Individual Carlota Vainilla/Arena - rectangular | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/individual-carlota-vainilla-arena-rectangular-2da-cb6gt/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -8635,6 +8525,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Alfombra costado de cama Rombos | Visón",
+    "price": "$35.400",
+    "original_price": "$29.500,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_9922-f6f52a5302ae83811b17894757504237-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra costado de cama Rombos | Visón. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-costado-de-cama-rombos-beige-1gn9b/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Pack individuales Mil Rayas Rojo x 2",
     "price": "$14.000",
     "original_price": "$10.000,00",
@@ -9119,6 +9020,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Manta Saona washed | Rayas Negras | 2da",
+    "price": "$18.000",
+    "original_price": "$12.450,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_9245-b815f9533a9923b99217873245268524-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con Manta Saona washed | Rayas Negras | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/manta-saona-washed-rayas-negras-2da-6lzin/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Necessaire Estampa frase | Perfectamente crudo",
     "price": "$12.100",
     "original_price": "$8.600,00",
@@ -9346,6 +9258,17 @@
     "desc": "Añade un toque único a tu hogar con Almohadón completo | Lo esencial... | Rosa | 50x25cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/almohadon-completo-lo-esencial-rosa-50x25cm-br04t/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "2,5m Mantel cuatro rayas grafito | 2da",
+    "price": "$26.500",
+    "original_price": "$21.180,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/1000160925-f0596207c5ab7d4d7d17865384804862-1024-1024.jpg",
+    "desc": "Añade un toque único a tu hogar con 2,5m Mantel cuatro rayas grafito | 2da. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/25m-mantel-cuatro-rayas-grafito-2da-1gqxb/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10043,6 +9966,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Almohadón completo con pestaña | Olivia Arena | 40x40cm",
+    "price": "$25.700",
+    "original_price": "$19.694,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_7828-809ccf7e1d4c5ed59c17841224594717-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo con pestaña | Olivia Arena | 40x40cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-con-pestana-olivia-arena-40x40cm-1rrju/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Almohadón completo | Love flor | Arena | 50x25cm",
     "price": "$17.300",
     "original_price": "$12.800,00",
@@ -10263,6 +10197,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Almohadón completo con pestaña | Olivia Verde fondo verde | 40x40cm",
+    "price": "$20.000",
+    "original_price": "$19.694,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/62559de9-9bf2-4ac8-88fd-1c15e41cc878-fbe780f3796a36e0f317812924403297-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Almohadón completo con pestaña | Olivia Verde fondo verde | 40x40cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/almohadon-completo-con-pestana-olivia-verde-fondo-verde-40x40cm-copia-1kui8/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Agarradera | Rayas grises",
     "price": "$7.200",
     "original_price": "$3.904,00",
@@ -10452,7 +10397,7 @@
   {
     "name": "Manta Chica (100x150) | Cotton | Corteza",
     "price": "$16.000",
-    "original_price": "$13.878,00",
+    "original_price": "$14.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_6086-90f79fc0dc2ce2b25617794758658346-1024-1024.jpg",
     "desc": "Añade un toque único a tu hogar con Manta Chica (100x150) | Cotton | Corteza. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
@@ -10582,6 +10527,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Hojas verdes | 50x70cm",
+    "price": "$8.400",
+    "original_price": "$7.996,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/b4364d7b-a19a-4976-a8d9-7ae34fdb8bd8-ad2abe88756255742017781802455878-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Hojas verdes | 50x70cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/hojas-verdes-50x70cm-xjp7y/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Plumero gris | 50x70cm",
     "price": "$8.400",
     "original_price": "$7.996,00",
@@ -10639,7 +10595,7 @@
   {
     "name": "Manta Cotton | Chica (100x150) | Descrude",
     "price": "$16.000",
-    "original_price": "$13.878,00",
+    "original_price": "$14.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/ad85221f-4da6-4938-82bc-12620cd1601b-df653b712abaf4261517779263968993-1024-1024.png",
     "desc": "Añade un toque único a tu hogar con Manta Cotton | Chica (100x150) | Descrude. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
@@ -10721,17 +10677,6 @@
     "desc": "Añade un toque único a tu hogar con Alfombra Chica (100x150) | Tres rayas finas negras. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/alfombra-chica-100x150-tres-rayas-finas-negras-1c42v/?entry_path=category",
-    "actual_stock": 0,
-    "catalog_stock": 0
-  },
-  {
-    "name": "Alfombra Cuadrada (150x150) | Franja negras-chocolate",
-    "price": "$21.000",
-    "original_price": "$19.683,00",
-    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/923cdd13-487f-47e4-b332-36dcdfdba6ee-68ff8eaeb5fc6c459317770847751544-1024-1024.webp",
-    "desc": "Añade un toque único a tu hogar con Alfombra Cuadrada (150x150) | Franja negras-chocolate. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
-    "stock_msg": "Agotado",
-    "link": "https://www.wearehome.com.ar/productos/alfombra-cuadrada-150x150-franja-negras-chocolate-1jkfi/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10820,6 +10765,17 @@
     "desc": "Añade un toque único a tu hogar con Porta maple negro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/porta-maple-negro-gj3ub/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Camino de tusor con Volados | Negro",
+    "price": "$20.400",
+    "original_price": "$16.203,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/6da23708-2251-4a0e-989a-8a37c59956c5-0db8d3f90d46106ff017769638464363-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Camino de tusor con Volados | Negro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/camino-de-tusor-con-volados-negro-1qgxo/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -10914,7 +10870,7 @@
   {
     "name": "Manta Chica (100x150) | Cotton | Gris medio",
     "price": "$16.000",
-    "original_price": "$13.878,00",
+    "original_price": "$14.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_4544-adb54bcd0a5cd2002417749888799638-1024-1024.jpg",
     "desc": "Añade un toque único a tu hogar con Manta Chica (100x150) | Cotton | Gris medio. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
@@ -11308,6 +11264,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Camino de gasa con Volados | Gris",
+    "price": "$18.400",
+    "original_price": "$13.782,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/81a664f4-ee89-468a-9d07-7f8bf9d54379-a85d1986df9214a09117722230349708-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Camino de gasa con Volados | Gris. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/camino-de-gasa-con-volados-gris-imjpy/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Felpudo bouclé | Negro",
     "price": "$11.300",
     "original_price": "$8.027,00",
@@ -11678,6 +11645,17 @@
     "desc": "Añade un toque único a tu hogar con Cubre Sommier 2 1/2 | Blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/cubre-sommier-2-1-2-blanco-8yysh/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Juego cortinas jareta Gasa | Crudo",
+    "price": "$40.200",
+    "original_price": "$44.332,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e7d6a48b-e6b1-4689-927f-f4fb7ebc371b-7e9b52b63bb2586cde17697235712625-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Juego cortinas jareta Gasa | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/juego-cortinas-jareta-gasa-crudo-w46tl/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -12221,6 +12199,17 @@
     "catalog_stock": 0
   },
   {
+    "name": "Felpudo Hi 40x60",
+    "price": "$20.800",
+    "original_price": "$20.673,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_6418-1855a0c606b45f96bf17626565147999-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Felpudo Hi 40x60. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/felpudo-hi-40x60/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
     "name": "Felpudo Liso 40x60",
     "price": "$17.900",
     "original_price": "$17.910,00",
@@ -12283,6 +12272,17 @@
     "desc": "Añade un toque único a tu hogar con Camino Amelia | Espiga crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/camino-amelia-espiga-crudo/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Camino Amelia | Tejido crudo",
+    "price": "$11.200",
+    "original_price": "$7.745,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e8f8efb7-875e-4160-a11b-697eb0e7ec1e-2a1ccc33e6a4bb615117938256909167-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Camino Amelia | Tejido crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/camino-amelia-tejido-crudo/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -12509,11 +12509,22 @@
   {
     "name": "Manta Cotton | Chica (100x150) | Arena",
     "price": "$16.000",
-    "original_price": "$13.878,00",
+    "original_price": "$14.000,00",
     "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_0385-7cff1dee3e5691f89217559881821715-1024-1024.jpeg",
     "desc": "Añade un toque único a tu hogar con Manta Cotton | Chica (100x150) | Arena. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/manta-cotton-chica-100x150-arena/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Alfombra Cuyo | 45x60cm | Rayas Blancas",
+    "price": "$12.400",
+    "original_price": "$10.167,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3372-5ba6fb9b30014cd46b17560457915886-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Alfombra Cuyo | 45x60cm | Rayas Blancas. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/alfombra-cuyo-45x60cm-rayas-blancas/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -12525,6 +12536,17 @@
     "desc": "Añade un toque único a tu hogar con Posavasos set x 6 | Combinado yute. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/posavasos-set-x-6-combinado-yute/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Posavasos set x 6 | Combinado negro",
+    "price": "$11.000",
+    "original_price": "$8.800,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/img_3213-096db21c3277527c5517558774577097-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Posavasos set x 6 | Combinado negro. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/posavasos-set-x-6-combinado-negro/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
@@ -14109,6 +14131,28 @@
     "desc": "Añade un toque único a tu hogar con Arena | 50x50cm. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
     "stock_msg": "Agotado",
     "link": "https://www.wearehome.com.ar/productos/arena-50x50cm/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Cortina lazos | Blanco",
+    "price": "$31.000",
+    "original_price": "$34.414,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/e31b4e35-e484-4d59-9228-4bb3424385d6-ec0c1369a7353cd9eb17683511339993-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Cortina lazos | Blanco. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/cortina-lazos-blanco/?entry_path=category",
+    "actual_stock": 0,
+    "catalog_stock": 0
+  },
+  {
+    "name": "Juego cortinas jareta Tusor | Crudo",
+    "price": "$47.600",
+    "original_price": "$52.583,00",
+    "img": "https://acdn-us.mitiendanube.com/stores/002/491/269/products/017ebd06-8349-49e9-8c36-b514d9b5d982-518a34bfd7b1567fbb17697224845282-1024-1024.webp",
+    "desc": "Añade un toque único a tu hogar con Juego cortinas jareta Tusor | Crudo. Diseñado con materiales de alta calidad y un acabado excepcional para complementar cualquier estilo de decoración.",
+    "stock_msg": "Agotado",
+    "link": "https://www.wearehome.com.ar/productos/juego-cortinas-jareta-tusor-crudo-14eby/?entry_path=category",
     "actual_stock": 0,
     "catalog_stock": 0
   },
